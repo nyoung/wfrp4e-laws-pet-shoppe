@@ -1,0 +1,100 @@
+{
+  "_id": "LqJeRxN4ZKlEcoVL",
+  "name": "Wayfinder",
+  "type": "trait",
+  "img": "modules/wfrp4e-core/icons/traits/trait.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The creature has an instinctual ability through magical or natural senses, such as magnetic fields, reading signs or detecting the winds of magic (from the polar gates), to find their way accurately even without maps or instruments. They add SL equal to their Initiative Bonus to all Navigation Tests.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "rollable": {
+      "value": false,
+      "damage": false,
+      "skill": "",
+      "label": "Rollable",
+      "type": "Boolean",
+      "rollCharacteristic": "",
+      "bonusCharacteristic": "",
+      "dice": "",
+      "defaultDifficulty": "challenging",
+      "SL": true,
+      "attackType": "melee"
+    },
+    "specification": {
+      "value": "",
+      "type": "String",
+      "label": "Specification"
+    }
+  },
+  "effects": [
+    {
+      "_id": "nu2ehFABzVT5MCvD",
+      "name": "Wayfinder",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "type": "base",
+      "disabled": false,
+      "transfer": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff",
+      "flags": {
+        "wfrp4e": {
+          "hide": false
+        }
+      },
+      "system": {
+        "transferData": {
+          "type": "document",
+          "documentType": "Actor",
+          "equipTransfer": false
+        },
+        "scriptData": [
+          {
+            "label": "Wayfinder",
+            "trigger": "dialog",
+            "script": "let sl = this.actor.characteristics.i.bonus\n   args.fields.slBonus += sl;",
+            "options": {
+              "activateScript": "return !!args.skill?.name.includes(\"Navigation\")",
+              "hideScript": "return !args.skill?.name.includes(\"Navigation\")",
+              "submissionScript": "",
+              "targeter": false
+            }
+          }
+        ],
+        "zone": {},
+        "sourceData": {},
+        "changes": []
+      },
+      "_key": "!items.effects!LqJeRxN4ZKlEcoVL.nu2ehFABzVT5MCvD"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!LqJeRxN4ZKlEcoVL"
+}

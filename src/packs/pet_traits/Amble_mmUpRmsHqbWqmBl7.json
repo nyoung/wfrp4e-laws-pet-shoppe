@@ -1,0 +1,56 @@
+{
+  "_id": "mmUpRmsHqbWqmBl7",
+  "name": "Amble",
+  "type": "trait",
+  "img": "modules/wfrp4e-core/icons/traits/trait.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The creature has a smooth gait, making it more comfortable to ride over long distances. Add +Amble hours to any length of time a rider can comfortably ride. Further, reduce the Combat Difficulty for&nbsp;<em>Shooting From Horseback</em>&nbsp;by 1 step.*</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>*<em>House Rules:</em> You can't ride a horse for longer than <strong>TB</strong> hours a day without picking up some <em>Fatigue Conditions</em>, depending upon the results of an<strong> Endurance Test</strong>. Further, <em>Shooting From Horseback</em> is a penalty of at least –20, depending upon the circumstances. Riders with the <em>Trick Riding</em> Talent reduce this difficulty by 1 step.</p>"
+    },
+    "rollable": {
+      "value": false,
+      "damage": false,
+      "skill": "",
+      "label": "Rollable",
+      "type": "Boolean",
+      "rollCharacteristic": "",
+      "bonusCharacteristic": "",
+      "dice": "",
+      "defaultDifficulty": "challenging",
+      "SL": true,
+      "attackType": "melee"
+    },
+    "specification": {
+      "value": "",
+      "type": "String",
+      "label": "Specification"
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": "Compendium.wfrp4e-laws-pet-shoppe.pet_traits.mmUpRmsHqbWqmBl7",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!mmUpRmsHqbWqmBl7"
+}

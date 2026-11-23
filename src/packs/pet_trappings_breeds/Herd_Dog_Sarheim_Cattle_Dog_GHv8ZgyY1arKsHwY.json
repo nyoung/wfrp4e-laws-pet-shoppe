@@ -1,0 +1,75 @@
+{
+  "_id": "GHv8ZgyY1arKsHwY",
+  "name": "Herd Dog (Sarheim Cattle Dog)",
+  "type": "trapping",
+  "img": "modules/wfrp4e-laws-pet-shoppe/assets/icons/herd_dog.webp",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Bred to drove cattle across the rolling hills of Averland, the temperamental Sarheim Cattle Dog is a short-coated brown to black dog noted for its intelligence, energy, and strong independent streak. Dogs of the breed are often nicknamed 'horn-heelers' for their propensity to nip the heels of reluctant cattle.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "2",
+      "ss": "18",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "trappingType": {
+      "type": "String",
+      "label": "Trapping Type",
+      "value": "misc"
+    },
+    "worn": false,
+    "spellIngredient": {
+      "type": "String",
+      "value": ""
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!GHv8ZgyY1arKsHwY"
+}

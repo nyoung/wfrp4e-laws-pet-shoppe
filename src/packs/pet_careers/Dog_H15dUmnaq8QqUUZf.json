@@ -1,0 +1,97 @@
+{
+  "_id": "H15dUmnaq8QqUUZf",
+  "name": "Dog",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/career-02.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Dog"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Pet"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": "2"
+    },
+    "status": {
+      "tier": "",
+      "standing": null
+    },
+    "characteristics": [
+      "ws",
+      "i",
+      "wp",
+      "s"
+    ],
+    "skills": [
+      "Athletics",
+      "Charm",
+      "Dodge",
+      "Intimidate",
+      "Perception",
+      "Perform (Obedience)",
+      "Swim",
+      "Track",
+      "Cool",
+      "Intuition",
+      "Melee (Tooth & Claw)",
+      "Navigation",
+      "Outdoor Survival",
+      "Perform (Tricks)"
+    ],
+    "talents": [
+      "Combat Reflexes",
+      "Magical Sense",
+      "Menacing",
+      "Strong Legs"
+    ],
+    "trappings": [
+      ""
+    ],
+    "incomeSkill": [],
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!H15dUmnaq8QqUUZf"
+}

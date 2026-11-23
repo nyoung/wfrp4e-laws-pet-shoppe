@@ -1,0 +1,85 @@
+{
+  "_id": "l1kLZFU2tDtLP22A",
+  "name": "Courser (Bildhofen)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/light-warhorse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Bildhofens are some of the fastest horses in the Empire. Originally from the stony hills of central Wissenland, the breed is now found in racetracks and hunts across the Old World. Bred for its willing and trainability, as well as its speed, strength, and agility, the Bildhofen has a powerful body, athletic movement, and strong limbs. Ranging from chestnut to black, many consider the Bildhofen to be the peak of what a courser should be, meaning prices for the animals can often be very high. Most are at least 16-hands tall.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "180",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 18
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!l1kLZFU2tDtLP22A"
+}

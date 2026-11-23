@@ -1,0 +1,101 @@
+{
+  "_id": "FRpvEEq4MBLHGaE7",
+  "name": "Fated",
+  "type": "talent",
+  "img": "modules/wfrp4e-core/icons/talents/luck.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>You are extraordinarily lucky. Perhaps the Gods have blessed you, or maybe you can somehow see the crackling skeins of fate spun by the Great Weaver itself. Gain +1 <em>Fate Point</em>.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Here's a controversial Talent that could be added to tier 4 Celestial Wizards, Ranaldans, and similar. It costs 500 XP to buy, and I add it here because, well, cats.</p>"
+    },
+    "max": {
+      "type": "String",
+      "label": "Max Advances",
+      "value": "none"
+    },
+    "advances": {
+      "type": "Number",
+      "label": "Advances",
+      "value": 1
+    },
+    "career": {
+      "value": "",
+      "type": "String",
+      "label": "Career"
+    },
+    "tests": {
+      "type": "String",
+      "label": "Tests",
+      "value": ""
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [
+    {
+      "_id": "mVPdpSzevijHaLTf",
+      "name": "Fated",
+      "img": "modules/wfrp4e-core/icons/talents/luck.png",
+      "type": "base",
+      "disabled": false,
+      "transfer": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff",
+      "flags": {
+        "wfrp4e": {}
+      },
+      "system": {
+        "transferData": {
+          "type": "document",
+          "documentType": "Actor",
+          "equipTransfer": false
+        },
+        "scriptData": [
+          {
+            "label": "Fated",
+            "trigger": "immediate",
+            "script": "await this.actor.update({\n  \"system.status.fate.value\": this.actor.system.status.fate.value + 1,\n  \"system.status.fortune.value\": this.actor.system.status.fortune.value + 1\n});",
+            "options": {
+              "deleteEffect": false
+            }
+          }
+        ],
+        "zone": {},
+        "sourceData": {},
+        "changes": []
+      },
+      "_key": "!items.effects!FRpvEEq4MBLHGaE7.mVPdpSzevijHaLTf"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!FRpvEEq4MBLHGaE7"
+}

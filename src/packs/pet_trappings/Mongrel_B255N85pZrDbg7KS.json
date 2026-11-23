@@ -1,0 +1,75 @@
+{
+  "_id": "B255N85pZrDbg7KS",
+  "name": "Mongrel",
+  "type": "trapping",
+  "img": "modules/wfrp4e-laws-pet-shoppe/assets/icons/mongrel.webp",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Mongrel Dogs are mixed-breed, or those not bred for a specific purpose. They are the most commonly encountered dogs and exhibit a wide variety of different traits.</p>\n<p><strong>Commonly Owned By:</strong> All</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "0",
+      "ss": "11",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "trappingType": {
+      "type": "String",
+      "label": "Trapping Type",
+      "value": "misc"
+    },
+    "worn": false,
+    "spellIngredient": {
+      "type": "String",
+      "value": ""
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!B255N85pZrDbg7KS"
+}

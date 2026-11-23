@@ -1,0 +1,85 @@
+{
+  "_id": "R2czw6WZQJ73EFij",
+  "name": "Palfrey (Heiner Horse)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/riding-horse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The distinctive Heiner Horse is a rare breed from the County of Heine in western Averland. A single stud farm breeds it, ensuring premium prices and a seller's market. Known for its inward-turning ears and the whorls in its hide down the neck, the Heiner is slender, elegant, and has an exceedingly smooth ride. Coming in all colours besides white, the breed is usually 15 hands tall and is especially popular with the courtly women of Averland, Stirland, and Wissenland.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "360",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "scarce"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 16
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!R2czw6WZQJ73EFij"
+}

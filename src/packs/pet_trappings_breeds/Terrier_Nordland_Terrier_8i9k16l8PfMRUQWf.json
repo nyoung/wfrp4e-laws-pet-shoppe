@@ -1,0 +1,75 @@
+{
+  "_id": "8i9k16l8PfMRUQWf",
+  "name": "Terrier (Nordland Terrier)",
+  "type": "trapping",
+  "img": "modules/wfrp4e-laws-pet-shoppe/assets/icons/terrier.webp",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The short, compact Nordland Terrier is famous for its irrepressible desire to attack, attack, and attack. Bred primarily for ratting, the scrappy dog has a long, wiry, black coat and distinctive face with piercing eyes and perky ears. Independent and self-assured, Nordlands have a rugged nature and seemingly endless determination.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "2",
+      "ss": "10",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "scarce"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "trappingType": {
+      "type": "String",
+      "label": "Trapping Type",
+      "value": "misc"
+    },
+    "worn": false,
+    "spellIngredient": {
+      "type": "String",
+      "value": ""
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8i9k16l8PfMRUQWf"
+}

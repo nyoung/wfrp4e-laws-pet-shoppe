@@ -1,0 +1,75 @@
+{
+  "_id": "uUsTRyOmPKgGTCu8",
+  "name": "Terrier (Greenleaf Fox Terrier)",
+  "type": "trapping",
+  "img": "modules/wfrp4e-laws-pet-shoppe/assets/icons/terrier.webp",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Greenleaf Fox Terriers are highly energetic dogs originally hailing from the Mootland, where they are used extensively to help keep foxes and other vermin in check. They are a smooth-haired breed, usually white with black patches, and tend to go for any creatures smaller than themselves unless restained. Enormously friendly dogs who love licking and barking, Greenleafs can be somewhat overwhelming for those unused to affectionate animals.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "1",
+      "ss": "15",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "scarce"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "trappingType": {
+      "type": "String",
+      "label": "Trapping Type",
+      "value": "misc"
+    },
+    "worn": false,
+    "spellIngredient": {
+      "type": "String",
+      "value": ""
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!uUsTRyOmPKgGTCu8"
+}

@@ -1,0 +1,85 @@
+{
+  "_id": "kN9XRxBGgrbo2DnG",
+  "name": "Pony (Troma Pony)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/pony-donkey-mule.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Troma Ponies hail from the Troma Isles just north of Nordland. They have heavy coats and short legs, and are adapted to the harsh conditions found there. With muscular bodies and stubby, thick necks, the breed oozes compact power. Their broad backs and deep girth lend them a springy stride that sends their very long manes and tails flying. They can be almost any colour, and are known for their brave, almost cheeky characters, and their surprising intelligence. Most Troma Ponies, which are used for almost all purposes, are around 8–9 hands tall.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "12",
+      "ss": "6",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 14
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!kN9XRxBGgrbo2DnG"
+}

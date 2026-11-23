@@ -1,0 +1,85 @@
+{
+  "_id": "BogohRD3CyBwp1ls",
+  "name": "Palfrey (Feiner Schritt)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/riding-horse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The Feiner Schritt (<em>fine step</em>) is less a breed and more a name for the smoothest, four-beat gaited horses in the Empire. In recent years, many Feiner Schritt stud farms have become famous for their horses, with each naming their versions slightly differently. The most famous are the Holzbek Feiner Schritts of north-eastern Middenland (usually grey), and the Auld Uhland Feiner-Schritts of northern Reikland (usually chestnut). Most are just over 14 hands in height and are distinctive for their clean legs and relatively short back with prominent withers.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "165",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "scarce"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 16
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!BogohRD3CyBwp1ls"
+}

@@ -1,0 +1,56 @@
+{
+  "_id": "KoI6u6iI68j0FDhi",
+  "name": "Fine",
+  "type": "trait",
+  "img": "modules/wfrp4e-core/icons/traits/trait.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>This repurposes the Item&nbsp;<em>Fine</em>&nbsp;Quality for animals. For animals the&nbsp;<em>Fine&nbsp;</em>Trait represents a pedigree. Mongrels cannot purchase the&nbsp;<em>Fine</em>&nbsp;Quality to represent breeding, but it could be purchased to show a dog with a particularly pretty face or similar.</p>\n<p>If a Player wants to buy any special breed beyond the generic versions, at least 1 instance of&nbsp;<em>Fine</em>&nbsp;should be bought to show it's a purebred animal accessing the special rules.</p>\n<p>For each&nbsp;<em>Fine</em>&nbsp;Trait the animal has, its price is doubled and its @UUID[Compendium.wfrp4e-core.journals.JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.mSfQGLILlnIVr27i]{Availability} is one step less.</p>\n<p>A typical Telland actually starts at 7GC (the base cost of 3GC 10/&ndash; is doubled because of the&nbsp;<em>Fine</em>&nbsp;Quality).</p>\n<p>The more&nbsp;<em>Fine</em>&nbsp;Traits purchased, the stronger the bloodline of the animal, and the more impressive it appears. This brings no advantages beyond bragging rights and high returns if the animal is ever sold.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>NOTE: Insisting special breeds have the Fine quality is not a firm rule, as you may wish to keep costs low at some points; it's more of a guideline that you should most always follow.</p>"
+    },
+    "rollable": {
+      "value": false,
+      "damage": false,
+      "skill": "",
+      "label": "Rollable",
+      "type": "Boolean",
+      "rollCharacteristic": "",
+      "bonusCharacteristic": "",
+      "dice": "",
+      "defaultDifficulty": "challenging",
+      "SL": true,
+      "attackType": "melee"
+    },
+    "specification": {
+      "value": "",
+      "type": "String",
+      "label": "Specification"
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": "Compendium.wfrp4e-laws-pet-shoppe.pet_traits.KoI6u6iI68j0FDhi",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!KoI6u6iI68j0FDhi"
+}

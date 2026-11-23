@@ -1,0 +1,85 @@
+{
+  "_id": "uFxuzEY3jzw4xZLG",
+  "name": "Pony (Bek Horses)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/pony-donkey-mule.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Bek Horses are ponies from northern-eastern Talabecland that are usually dun with a dark ridge and darker horizontal stripes on the legs. Known for being aggressive animals that kick and bite, Beks have little inclination for driving, hauling, or being pack animals, but has surprising enthusiasm for warfare. Southern Talabeclander myths claim the Bek was originally introduced to the Reik Basic by the Taleuten tribe long before the Time of Sigmar, and some smaller communities consider the beast to be sacred. Most Beks are rarely taller than 13 hands.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "11",
+      "ss": "6",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 14
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!uFxuzEY3jzw4xZLG"
+}

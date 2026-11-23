@@ -1,0 +1,40 @@
+{
+  "_id": "6kHjpD08gSd6bJkk",
+  "name": "Henchman: Horse",
+  "pages": [
+    {
+      "_id": "6kHjpD08gSd6bJkk",
+      "name": "Henchman: Horse",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<blockquote>\n<p>‘<span style=\"font-style:normal\">Those Horses Twelve did Sigmar strap / and great Empire of Man form'd He</span>.’</p>\n<p style=\"text-align:right\">–Sighardt Schneider-Koller, 1797 IC</p>\n</blockquote>\n<div style=\"font-style:normal\">\n<p> </p>\n</div>\n<h3>Horses are central to life in the Empire.</h3>\n<p>In 1797IC, Sighardt Schneider-Koller wrote in his epic poem <strong><em>Sigmar, Emperor!</em></strong>: 'Those Horses Twelve did Sigmar strap / and great Empire of Man form'd He.' Whilst clearly a metaphor, Schneider-Koller was nevertheless accurate, for horses are central to life in the Empire. The large animals work hard at all levels of society, and are used for food, herding, warfare, transportation, agriculture, sport, and much more besides. Because of this, the best examples of the species are perceived to be important status symbols, and are bought and sold for extraordinary prices.</p>\n<p style=\"font-style:normal\"> </p>\n<p><strong>Species: </strong>Horse</p>\n<p><strong>Class: </strong>Henchman (Pet)</p>\n<h3 style=\"text-align:center\">Horse Advance Scheme</h3>\n<table style=\"height:34px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"height:17px;width:60px;text-align:center\">WS</td>\n<td style=\"height:17px;width:60px;text-align:center\">BS</td>\n<td style=\"height:17px;width:60px;text-align:center\">S</td>\n<td style=\"height:17px;width:61px;text-align:center\">T</td>\n<td style=\"height:17px;width:61px;text-align:center\">I</td>\n<td style=\"height:17px;width:61px;text-align:center\">Agi</td>\n<td style=\"height:17px;width:61px;text-align:center\">Dex</td>\n<td style=\"height:17px;width:61px;text-align:center\">Int</td>\n<td style=\"height:17px;width:61px;text-align:center\">WP</td>\n<td style=\"height:17px;width:61px;text-align:center\">Fel</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"height:17px;width:60px;text-align:center\">I</td>\n<td style=\"height:17px;width:60px;text-align:center\"> </td>\n<td style=\"height:17px;width:60px;text-align:center\">II</td>\n<td style=\"height:17px;width:61px;text-align:center\">III</td>\n<td style=\"height:17px;width:61px;text-align:center\">I</td>\n<td style=\"height:17px;width:61px;text-align:center\">IV</td>\n<td style=\"height:17px;width:61px;text-align:center\"> </td>\n<td style=\"height:17px;width:61px;text-align:center\"> </td>\n<td style=\"height:17px;width:61px;text-align:center\">I</td>\n<td style=\"height:17px;width:61px;text-align:center\"> </td>\n</tr>\n</tbody>\n</table>\n<h3><strong>I. @UUID[Compendium.wfrp4e-laws-pet-shoppe.pet_careers.Item.y5xLL9agcBedhslC]{Trainee Horse}</strong></h3>\n<p><strong>Status</strong>: –<br /><strong>Skills</strong>: @UUID[Compendium.wfrp4e-core.items.Item.LGHozP5gmQ8cuDQV]{Athletics}<span id=\"docs-internal-guid-47467c86-7fff-77e7-257c-5bafd6910be0\">, @UUID[Compendium.wfrp4e-core.items.Item.1jCxbFAUuFuAPLJl]{Dodge}</span>, @UUID[Compendium.wfrp4e-core.items.Item.CcNJsS4jSwB6Ug1J]{Endurance}, @UUID[Compendium.wfrp4e-core.items.Item.cYtU0ORRFCOpQLWz]{Intuition}, @UUID[Compendium.wfrp4e-core.items.Item.os4NKy5Oy6sRt1eh]{Outdoor Survival}, @UUID[Compendium.wfrp4e-core.items.Item.Fs06sr7y9JKpVQmB]{Perception}, @UUID[Compendium.wfrp4e-core.items.Item.HO8vIjGTHjmenIaV]{Perform (Obedience)}, @UUID[Compendium.wfrp4e-core.items.Item.hodHqFNKAmu40ajh]{Swim}</p>\n<p><strong>Talents</strong>: @UUID[Compendium.wfrp4e-core.items.Item.jrFIFLhyOYwcyMUl]{Flee!}, @UUID[Compendium.wfrp4e-core.items.Item.mNoCuaVbFBflfO6X]{Sixth Sense}, @UUID[Compendium.wfrp4e-core.items.Item.4MJJCiOKPkBByYwW]{Strike Mighty Blow}, @UUID[Compendium.wfrp4e-core.items.Item.qZ4cFy6z482ZONuA]{Sturdy}<br /><strong>Trappings</strong>: –<br /><br /></p>\n<h3><strong>II. @UUID[Compendium.wfrp4e-laws-pet-shoppe.pet_careers.Item.ArN1Gxh4P0r34AUp]{Horse}</strong></h3>\n<p><strong>Status</strong>: –<br /><strong>Skills</strong>: @UUID[Compendium.wfrp4e-core.items.Item.pxNjTxsp1Kp0SmQe]{Cool}, @UUID[Compendium.wfrp4e-core.items.Item.I0yPc4PH5erWJLmu]{Intimidate}, @UUID[Compendium.wfrp4e-core.items.Item.F8NfBZdVSEIGCMtu]{Melee (Tooth &amp; Hoof)}, @UUID[Compendium.wfrp4e-core.items.Item.zZUX7wO4rOo8k9F0]{Navigation}, @UUID[Compendium.wfrp4e-core.items.Item.HO8vIjGTHjmenIaV]{Perform (Tricks)}, @UUID[Compendium.wfrp4e-core.items.Item.McTtmZu3Ac8Lh48W]{Stealth ()}</p>\n<p><strong>Talents</strong>: @UUID[Compendium.wfrp4e-core.items.Item.zImcTgEl2XNnbu5W]{Hardy}, @UUID[Compendium.wfrp4e-core.items.Item.0hn6UaKq8CoZP2zD]{Menacing}, @UUID[Compendium.wfrp4e-core.items.Item.CV9btQn09S9Fn8Jk]{Strong Legs}, @UUID[Compendium.wfrp4e-core.items.Item.AwUUEwwf2Vt4ksCN]{Sprinter}<br /><strong>Trappings</strong>: –<br /><br /></p>\n<h3><strong>III. @UUID[Compendium.wfrp4e-laws-pet-shoppe.pet_careers.Item.tvB9mMj5KEgopiAR]{Trained Horse}</strong></h3>\n<p><strong>Status</strong>: –<br /><strong>Skills</strong>: @UUID[Compendium.wfrp4e-core.items.Item.exLrBrn2mjb6x2Cq]{Charm}, @UUID[Compendium.wfrp4e-core.items.Item.sRuMlaPU5xdIrwhd]{Climb}, @UUID[Compendium.wfrp4e-core.items.Item.iYan4z52v7HYM9u9]{Drive (Any)}, @UUID[Compendium.wfrp4e-core.items.Item.HO8vIjGTHjmenIaV]{Perform (Show Horse)}</p>\n<p><strong>Talents</strong>: @UUID[Compendium.wfrp4e-core.items.Item.E3vTSCzgrasNijUO]{Fleet Footed}, @UUID[Compendium.wfrp4e-core.items.Item.mqo51ORnxijcqNNu]{Frightening}, @UUID[Compendium.wfrp4e-core.items.Item.uRvOg8AnCcP2ufx8]{Resolute}, @UUID[Compendium.wfrp4e-core.items.Item.FF41XPboORgyDNsv]{Strong Back}</p>\n<p><strong>Trappings</strong>: –<br /><br /></p>\n<h3><strong>IV. @UUID[Compendium.wfrp4e-laws-pet-shoppe.pet_careers.Item.Dg2JONW25zMGmiH6]{Veteran Horse}</strong></h3>\n<p><strong>Status</strong>: –<br /><strong>Skills</strong>: @UUID[Compendium.wfrp4e-core.items.Item.XQiiwS9m2Du1IMUz]{Language (Battle)}, @UUID[Compendium.wfrp4e-core.items.Item.HO8vIjGTHjmenIaV]{Perform (Dressage)}</p>\n<p><strong>Talents</strong>: @UUID[Compendium.wfrp4e-core.items.Item.oRx92ByVNEBN6YkK]{Berserk Charge}, @UUID[Compendium.wfrp4e-core.items.Item.xx8SgdWYEjKct7ym]{Implacable}, @UUID[Compendium.wfrp4e-core.items.Item.nWLsoWQBCjPRKxYx]{Robust}, @UUID[Compendium.wfrp4e-core.items.Item.HpGjzrSR4tdogJtl]{Step Aside}<br /><strong>Trappings</strong>: –<br /><br /></p>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!6kHjpD08gSd6bJkk.6kHjpD08gSd6bJkk"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!6kHjpD08gSd6bJkk"
+}

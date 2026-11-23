@@ -1,0 +1,85 @@
+{
+  "_id": "MTEktz6VwZIqS9BM",
+  "name": "Donkey (Therra Ass)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/pony-donkey-mule.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Originally hailing from central Stirland, the sizeable Therra Ass is one of the larger species of donkey in the Empire. It has a shaggy, dark-brown coat that gives way to a pale underside and muzzle, and is known for its irascible temper when provoked. Because of its surprisingly smooth gait and notable endurance, the Therra is primarily used as a pack animal or for riding, and is particularly popular in the highlands of Talabecland. On average, it is 15 hands tall.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "5",
+      "ss": "10",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 14
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!MTEktz6VwZIqS9BM"
+}

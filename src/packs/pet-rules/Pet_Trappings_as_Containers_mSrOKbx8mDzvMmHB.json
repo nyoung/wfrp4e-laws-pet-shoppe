@@ -1,0 +1,40 @@
+{
+  "_id": "mSrOKbx8mDzvMmHB",
+  "name": "Pet Trappings as Containers",
+  "pages": [
+    {
+      "_id": "mSrOKbx8mDzvMmHB",
+      "name": "Pet Trappings as Containers",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>I made the decision to make Pet Trappings 'Containers' rather than 'Miscellaneous' items.</p>\n<p>This lets the trapping have an Encumberance. So if you simply want to use the animal as a pack animal (container) and don't want to be bothered with having additional character sheets then you can use them as so.</p>\n<p>Feel free to let me know your opinion on this.</p>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!mSrOKbx8mDzvMmHB.mSrOKbx8mDzvMmHB"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!mSrOKbx8mDzvMmHB"
+}

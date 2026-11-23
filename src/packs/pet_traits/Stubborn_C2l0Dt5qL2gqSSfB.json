@@ -1,0 +1,99 @@
+{
+  "_id": "C2l0Dt5qL2gqSSfB",
+  "name": "Stubborn",
+  "type": "trait",
+  "img": "modules/wfrp4e-core/icons/traits/trait.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p><span style=\"font-family: CaslonPro;\">Donkeys and mules often have the Stubborn trait, which increases their WP score by +20 and requires an Opposed Ride or Drive/Willpower Test whenever the rider or driver needs to bring the creature under control. If the test is a failure, the animal stops dead and refuses to go further. It can be induced to go forward by a successful Ride Test opposed by the creature&rsquo;s Willpower, or an opposed Charm Animal Test if someone is leading it by the bridle. In either case, it does not go faster than half Walking speed.</span></p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": null
+    },
+    "rollable": {
+      "value": false,
+      "damage": false,
+      "skill": "",
+      "label": "Rollable",
+      "type": "Boolean",
+      "rollCharacteristic": "",
+      "bonusCharacteristic": "",
+      "dice": "",
+      "defaultDifficulty": "challenging",
+      "SL": true,
+      "attackType": "melee"
+    },
+    "specification": {
+      "value": "",
+      "type": "String",
+      "label": "Specification"
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [
+    {
+      "_id": "nOPuzKlsMxZhmmqI",
+      "name": "Stubborn",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "type": "base",
+      "disabled": false,
+      "transfer": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff",
+      "flags": {
+        "wfrp4e": {
+          "hide": false
+        }
+      },
+      "system": {
+        "transferData": {
+          "type": "document",
+          "documentType": "Actor",
+          "equipTransfer": false
+        },
+        "scriptData": [],
+        "zone": {},
+        "sourceData": {},
+        "changes": [
+          {
+            "key": "system.characteristics.wp.initial",
+            "value": 10,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "_key": "!items.effects!C2l0Dt5qL2gqSSfB.nOPuzKlsMxZhmmqI"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": "Compendium.wfrp4e-laws-pet-shoppe.pet_traits.C2l0Dt5qL2gqSSfB",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!C2l0Dt5qL2gqSSfB"
+}

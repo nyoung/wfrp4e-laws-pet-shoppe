@@ -1,0 +1,102 @@
+{
+  "_id": "tvB9mMj5KEgopiAR",
+  "name": "Trained Horse",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/career-03.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Horse"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Pet"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": "3"
+    },
+    "status": {
+      "tier": "",
+      "standing": null
+    },
+    "characteristics": [
+      "s",
+      "t",
+      "wp",
+      "ws",
+      "ag"
+    ],
+    "skills": [
+      "Athletics",
+      "Dodge",
+      "Endurance",
+      "Intuition",
+      "Outdoor Survival",
+      "Perception",
+      "Perform (Obedience)",
+      "Swim",
+      "Cool",
+      "Intimidate",
+      "Melee (Tooth & Hoof)",
+      "Navigation",
+      "Perform (Tricks)",
+      "Stealth",
+      "Charm",
+      "Climb",
+      "Drive (Any)",
+      "Perform (Show Horse)"
+    ],
+    "talents": [
+      "Fleet Footed",
+      "Frightening",
+      "Resolute",
+      "Strong Back"
+    ],
+    "trappings": [
+      ""
+    ],
+    "incomeSkill": [],
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!tvB9mMj5KEgopiAR"
+}

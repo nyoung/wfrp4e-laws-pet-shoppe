@@ -1,0 +1,75 @@
+{
+  "_id": "8KYqEPjtfuOFujF1",
+  "name": "Pit Dog (Bärenbiter)",
+  "type": "trapping",
+  "img": "modules/wfrp4e-laws-pet-shoppe/assets/icons/pit_dog.webp",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The tan and black-striped Bärenbiter is a large, short-haired dog originally bred to hunt and grip to bears and other large prey until hunters arrive. It has a square muzzle with very strong jaws, perfect for biting and hanging on to large prey. Although still occasionally used as a hunting dog, it is much more common to find&nbsp;Bärenbiters in fighting pits as the animals have significant game.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "4",
+      "ss": "3",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "scarce"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "trappingType": {
+      "type": "String",
+      "label": "Trapping Type",
+      "value": "misc"
+    },
+    "worn": false,
+    "spellIngredient": {
+      "type": "String",
+      "value": ""
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8KYqEPjtfuOFujF1"
+}

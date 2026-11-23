@@ -1,0 +1,283 @@
+{
+  "_id": "Qlr1lq7dcezN62e0",
+  "name": "Random Traits: Cat",
+  "img": "systems/wfrp4e/ui/buttons/d10.webp",
+  "description": "",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "JzotdLufok2vZoqs",
+      "weight": 1,
+      "range": [
+        1,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Arboreal",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.JzotdLufok2vZoqs"
+    },
+    {
+      "_id": "UTPHBHlgY7vGEYOR",
+      "weight": 1,
+      "range": [
+        11,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Belligerent",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.UTPHBHlgY7vGEYOR"
+    },
+    {
+      "_id": "rxCHQObj0LuWr0Nf",
+      "weight": 1,
+      "range": [
+        16,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Big",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.a8MC97PLzl10WocT",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.rxCHQObj0LuWr0Nf"
+    },
+    {
+      "_id": "S4GdFbnJGWRefF40",
+      "weight": 1,
+      "range": [
+        26,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Bite",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.S4GdFbnJGWRefF40"
+    },
+    {
+      "_id": "7AOk8dmJeEXrXrWq",
+      "weight": 1,
+      "range": [
+        31,
+        35
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Cunning",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.3WI8mhTinC8inxyj",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.7AOk8dmJeEXrXrWq"
+    },
+    {
+      "_id": "SlixqBtwsGepfgvY",
+      "weight": 1,
+      "range": [
+        36,
+        45
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Fast",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.9MjH4xyVrd3Inzak",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.SlixqBtwsGepfgvY"
+    },
+    {
+      "_id": "FruWr1GPJGHvXniF",
+      "weight": 1,
+      "range": [
+        46,
+        55
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Fury",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.fjd1u9VAgiYzhBRp",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.FruWr1GPJGHvXniF"
+    },
+    {
+      "_id": "QX829A2leSnQfK8f",
+      "weight": 1,
+      "range": [
+        56,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Magical",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.mDgEMOoJpi8DkRYb",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.QX829A2leSnQfK8f"
+    },
+    {
+      "_id": "itRPl6Of5vw3VTKm",
+      "weight": 1,
+      "range": [
+        71,
+        75
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Night Vision",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.itRPl6Of5vw3VTKm"
+    },
+    {
+      "_id": "Dm1XqoDcYKwNEPL8",
+      "weight": 1,
+      "range": [
+        76,
+        80
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Trained*",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-laws-pet-shoppe.pet_traits.Item.I7L7UACo7qOuni3l",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.Dm1XqoDcYKwNEPL8"
+    },
+    {
+      "_id": "zqN0VvWzewvNfLsu",
+      "weight": 1,
+      "range": [
+        81,
+        90
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Tracker",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.ClOlztW6hH8rslbp",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.zqN0VvWzewvNfLsu"
+    },
+    {
+      "_id": "6VuY0TJlQXN2GtN0",
+      "weight": 1,
+      "range": [
+        91,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Ward",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.Bvd2aZ0gQUXHfCTh",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.6VuY0TJlQXN2GtN0"
+    },
+    {
+      "_id": "dVWGSTobbuz19Lpj",
+      "weight": 1,
+      "range": [
+        91,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d10-grey.svg",
+      "name": "Ward (10+)",
+      "description": "Ward (10+)",
+      "type": "text",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.dVWGSTobbuz19Lpj"
+    },
+    {
+      "_id": "ErHqW0GBCXl0BOjy",
+      "weight": 1,
+      "range": [
+        76,
+        80
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d10-grey.svg",
+      "name": "{Trained*} (Any) +1",
+      "description": "{Trained*} (Any) +1",
+      "type": "text",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.ErHqW0GBCXl0BOjy"
+    },
+    {
+      "_id": "d4ZIjIZ8afzZhvoj",
+      "weight": 1,
+      "range": [
+        71,
+        75
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d10-grey.svg",
+      "name": "{Night Vision} +1",
+      "description": "{Night Vision} +1",
+      "type": "text",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.d4ZIjIZ8afzZhvoj"
+    },
+    {
+      "_id": "WOptbLJETrv0cRSR",
+      "weight": 1,
+      "range": [
+        26,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d10-grey.svg",
+      "name": "{Bite} SB+1",
+      "description": "{Bite} SB+1",
+      "type": "text",
+      "_key": "!tables.results!Qlr1lq7dcezN62e0.WOptbLJETrv0cRSR"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "wfrp4e": {
+      "key": "cat-traits",
+      "column": ""
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!Qlr1lq7dcezN62e0"
+}

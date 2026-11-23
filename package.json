@@ -1,0 +1,12 @@
+{
+  "name": "wfrp4e-laws-pet-shoppe",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build-packs.mjs",
+    "migrate-legacy": "node tools/migrate-legacy.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.0"
+  }
+}

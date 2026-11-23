@@ -1,0 +1,930 @@
+{
+  "_id": "pkQv4oG5ZeJgzGXw",
+  "name": "Pony (Geopony)",
+  "type": "creature",
+  "img": "modules/wfrp4e-eis/assets/actors/pony-donkey-mule.webp",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "type": "number",
+        "label": "Weapon Skill",
+        "abrev": "WS",
+        "initial": 15,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 15,
+        "bonus": 1,
+        "cost": 25
+      },
+      "bs": {
+        "type": "Number",
+        "label": "Ballistic Skill",
+        "abrev": "BS",
+        "initial": 0,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 0,
+        "bonus": 0,
+        "cost": 25
+      },
+      "s": {
+        "type": "Number",
+        "label": "Strength",
+        "abrev": "S",
+        "initial": 60,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 60,
+        "bonus": 6,
+        "cost": 25
+      },
+      "t": {
+        "type": "Number",
+        "label": "Toughness",
+        "abrev": "T",
+        "initial": 50,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 50,
+        "bonus": 5,
+        "cost": 25
+      },
+      "i": {
+        "type": "Number",
+        "label": "Initiative",
+        "abrev": "I",
+        "initial": 35,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 35,
+        "bonus": 3,
+        "cost": 25
+      },
+      "ag": {
+        "type": "Number",
+        "label": "Agility",
+        "abrev": "Ag",
+        "initial": 40,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 40,
+        "bonus": 4,
+        "cost": 25
+      },
+      "dex": {
+        "type": "Number",
+        "label": "Dexterity",
+        "abrev": "Dex",
+        "initial": 5,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 5,
+        "bonus": 0,
+        "cost": 25
+      },
+      "int": {
+        "type": "Number",
+        "label": "Intellegence",
+        "abrev": "Int",
+        "initial": 20,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 20,
+        "bonus": 2,
+        "cost": 25
+      },
+      "wp": {
+        "type": "Number",
+        "label": "Willpower",
+        "abrev": "WP",
+        "initial": 15,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 15,
+        "bonus": 1,
+        "cost": 25
+      },
+      "fel": {
+        "type": "Number",
+        "label": "Fellowship",
+        "abrev": "Fel",
+        "initial": 25,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 25,
+        "bonus": 2,
+        "cost": 25
+      }
+    },
+    "status": {
+      "wounds": {
+        "type": "Number",
+        "label": "Wounds",
+        "abrev": "W",
+        "value": 27,
+        "max": 27
+      },
+      "advantage": {
+        "type": "Number",
+        "label": "Advantage",
+        "value": 0,
+        "max": 10
+      },
+      "criticalWounds": {
+        "type": "Number",
+        "label": "Critical Wounds",
+        "value": 0,
+        "max": 5,
+        "descriptions": ""
+      },
+      "sin": {
+        "type": "Number",
+        "label": "Sin",
+        "value": "0"
+      },
+      "penalties": {
+        "type": "String",
+        "label": "Penalties",
+        "value": ""
+      },
+      "corruption": {
+        "type": "Number",
+        "label": "Corruption",
+        "value": 0
+      },
+      "encumbrance": {
+        "type": "Number",
+        "label": "Encumbrance",
+        "max": 11,
+        "current": 0
+      },
+      "mount": {
+        "id": "",
+        "mounted": false,
+        "isToken": false,
+        "tokenData": {
+          "scene": "",
+          "token": ""
+        }
+      }
+    },
+    "details": {
+      "species": {
+        "type": "String",
+        "label": "Species",
+        "value": "Geopony",
+        "subspecies": ""
+      },
+      "gender": {
+        "type": "String",
+        "label": "Gender",
+        "value": ""
+      },
+      "biography": {
+        "type": "String",
+        "label": "Biography",
+        "value": "<p>The Geopony, or Nordland Geo Pony, is a small but incredibly strong breed often used to scale cliff faces and delve 'geo's: large, coastal sink-holes. An agile horse, the Geopony is usually dun with a short, white mane. It has a strong, arched neck, sturdy legs that are good for climbing, and very sure feet combined with a compact muscular body. Despite its small size, it can carry or pull a great deal of weight. The breed is usually 12&ndash;13 hands in height and has a generally good temperament.</p>\n<p><strong>Commonly Owned By:</strong>&nbsp;Herbalist, Hunter, Miner, Outlaw</p>"
+      },
+      "gmnotes": {
+        "type": "String",
+        "label": "GM Notes",
+        "value": ""
+      },
+      "size": {
+        "type": "String",
+        "label": "Size",
+        "value": "avg"
+      },
+      "move": {
+        "type": "Number",
+        "label": "Movement",
+        "value": 4,
+        "walk": 8,
+        "run": 16
+      },
+      "god": {
+        "type": "String",
+        "label": "God",
+        "value": null
+      },
+      "status": {
+        "type": "String",
+        "value": "",
+        "standing": "",
+        "tier": 0,
+        "modifier": 0
+      },
+      "hitLocationTable": {
+        "value": "hitloc",
+        "type": "String",
+        "label": "Hit Location Table"
+      }
+    },
+    "excludedTraits": [
+      "riF13WcliEEJP7ct",
+      "6K9bVClq5N65I3HG",
+      "cf46DeljlFM0b4Pt",
+      "Qst26ZBJ8RYwfZXN",
+      "4QO3NpBr1w7sTp5q",
+      "39MNFFsXRBVJkukL",
+      "qjqAOeZoXfvJxgrD",
+      "IyMYE78VTavYSPxk",
+      "DJuWJFmI0Xov6TwG",
+      "PucKLwINsBS6UTfU",
+      "yfzkyxXZERxZYRvs",
+      "9Vt22cCx0dr1GUE9",
+      "DUXKJYAOp9KxUHSr",
+      "J88w9ATC79s6NOjh",
+      "KVFu4QsHePrMKQah",
+      "UdCFB3t4GedltT9E",
+      "F0DCmd9tSrpkmyiY",
+      "GlNBYlnG5fzRKpkC",
+      "yP1BdIdBVo94fl3V",
+      "8ytkWSueRi70w8er",
+      "Y3HCuM8QshBks2R5",
+      "WSvS53W3XVxR0VMe",
+      "C3TdXDsGqc8UhHWm",
+      "W3jof1DrkS6AAwYt",
+      "TfWVDEQSfuX20zl5",
+      "5uHGNJtuWyKnXtfU",
+      "B9d9FCzcjWvDNdHf",
+      "UjnVoINeDE94X4Gu",
+      "5FBU39t6GUNAMQWt",
+      "6kMVPbuS2dgJMlNi",
+      "vyC6zOdCCvNAZfpp",
+      "SjmRdgknnaDz9nnP"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Bek Horse",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/wfrp4e-eis/assets/tokens/pony-donkey-mule.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff"
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "status.wounds"
+    },
+    "bar2": {
+      "attribute": "status.advantage"
+    },
+    "randomImg": false,
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360
+    },
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 1
+    },
+    "flags": {
+      "autorotate": {
+        "enabled": false
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "cldFbRAbk3GYJnNy",
+      "name": "Bestial",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature has no rational thought or language. It shies away from fire and gains a Broken Condition if struck by it. In defense, it only uses the Dodge Skill. If it loses more than half its Wounds, it will attempt to Flee unless protecting its young or cornered, or unless it has the Territorial Trait. If so, it enters Frenzy. Bestial creatures have no Fellowship characteristic \r\r"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.traits.AGcJl5rHjkyIQBPP",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 2400000,
+      "_key": "!actors.items!pkQv4oG5ZeJgzGXw.cldFbRAbk3GYJnNy"
+    },
+    {
+      "_id": "vKdruGIXmIIO43Ac",
+      "name": "Night Vision",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>You can see very well in natural darkness. Assuming you have at least a faint source of light (such as starlight, moonlight, or bioluminescence) you can see clearly for 20 yards per level of Night Vision. Further, you can extend the effective illumination distance of any light sources by 20 yards per level of Night Vision.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "2",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.traits.FmHDbCOy3pH8yKhm",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 2500000,
+      "_key": "!actors.items!pkQv4oG5ZeJgzGXw.vKdruGIXmIIO43Ac"
+    },
+    {
+      "_id": "i9S5olyIrwU3bXbh",
+      "name": "Skittish",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature is easily scared by magic or loud noises. If such occurs, it receives +3 Broken Conditions \r\r"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.traits.IPKRMGry6WotuS1G",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 2700000,
+      "_key": "!actors.items!pkQv4oG5ZeJgzGXw.i9S5olyIrwU3bXbh"
+    },
+    {
+      "_id": "mrTPyvzhoB4PBkz4",
+      "name": "Trained",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>This trait represents animals that have been trained through the Animal Training Skill. The skills the animal knows is marked in the brackets. Feel free to create your own trained skills.</p>\n<p><strong>Broken</strong>: The animal has been domesticated. Now tame, it gains +[[/r 2d10]] Fel, even if it has the&nbsp;<em>Bestial</em>&nbsp;trait. Further, it can now learn more&nbsp;<em>Trained</em>&nbsp;traits (see below).</p>\n<p><strong>Calm:</strong> The animal can attempt a&nbsp;<strong>Challenging (+0) Cool</strong>&nbsp;Test to ignore the effects of the&nbsp;<em>Skittish</em>&nbsp;Creature Trait. It gains a bonus of +10 to this Test for each point it has in Calm. It can have a maximum of&nbsp;<strong>WPB</strong> rating in this trait.</p>\n<p><strong>Drive</strong>: The animal is trained to pull a coach, cart, plough, buggy, or similar. The animal can pull up to its own body weight for&nbsp;<strong>TB</strong>&nbsp;hours without needing to make an Endurance Test. The animal can also pull up to twice its body weight for short hauls of&nbsp;<strong>TB</strong>&nbsp;minutes. The animal's gains a bonus of +1&nbsp;<strong>TB</strong>&nbsp;to do this for each point it has in Drive. It can have a maximum of&nbsp;<strong>WPB</strong>&nbsp;rating in this trait.</p>\n<p><strong>Entertain</strong>: The animal is trained to entertain others. It adds a +10 bonus to appropriate Entertain, Perform, or Play Tests.</p>\n<p><strong>Fetch</strong>: The animal is trained to spot and retrieve an object or prey undamaged.</p>\n<p><strong>Guard</strong>: The animal is trained to stay in one place or prowl around as a guard, granting it the Territorial Trait.</p>\n<p><strong>Home</strong>: The animal is trained to return home if it is released or lost.</p>\n<p><strong>Magic</strong>:&nbsp;The animal is trained to accept a spellcaster as a rider. Without this Trained trait, the animal typically shies from spellcasters.</p>\n<p><strong>Mount</strong>: The animal will accept a rider. Some creatures are especially belligerent, and will not accept a rider without the correct skill. So, to ride a Griﬀon, you need the Ride (Griﬀon) skill.</p>\n<p><strong>Pack:</strong>&nbsp;The animal is trained to carry great weights on its back. It can carry its Strength rating in Encumbrance points upon its back for each point it has in Pack. This limit is doubled for each step in the Size trait to the creature has above Large. It can have a maximum of&nbsp;<strong>TB</strong>&nbsp;rating in this trait.</p>\n<p><strong>Pointer:</strong>&nbsp;The animal is trained to spot birds and 'point' to them by freezing and aiming their muzzle towards the game.</p>\n<p><strong>War</strong>:&nbsp;The animal is trained to carry a rider into the hell of war. It can use its Rider&rsquo;s&nbsp;<strong>WP</strong> instead of its own for all appropriate Tests</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>This assumes the following updates are applied to the&nbsp;<em>Trained</em>&nbsp;trait from&nbsp;<strong>WFRP</strong>&nbsp;page 342-343. Of note, look to Broken, which was never supposed to imply the&nbsp;<em>Bestial</em>&nbsp;trait was ignored completely.</p>"
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "Broken, Mount, War",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [
+        {
+          "name": "Trained",
+          "_id": "ra1EGVf9mHjb4JrR",
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "flags": {
+            "wfrp4e": {}
+          },
+          "tint": "#ffffff",
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none"
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {}
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Trained",
+                "trigger": "immediate",
+                "options": {
+                  "dialog": {
+                    "hideScript": "",
+                    "activateScript": "",
+                    "submissionScript": "",
+                    "targeter": false
+                  },
+                  "immediate": {
+                    "deleteEffect": false
+                  },
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false
+                },
+                "script": "[Script.KGK9vL1Yl0qmCeCN]"
+              },
+              {
+                "label": "Trained (Entertain)",
+                "string": "",
+                "trigger": "dialog",
+                "options": {
+                  "dialog": {
+                    "hideScript": "[Script.v6LIG7EwWYALxCpP]",
+                    "activateScript": "[Script.yRRzSKlcN3L7rEEe]",
+                    "submissionScript": "",
+                    "targeter": false
+                  },
+                  "immediate": {
+                    "deleteEffect": false
+                  },
+                  "hideScript": "[Script.v6LIG7EwWYALxCpP]",
+                  "activateScript": "[Script.yRRzSKlcN3L7rEEe]",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false
+                },
+                "script": "[Script.ma0sWhebqwdRHWvY]"
+              }
+            ],
+            "zone": {},
+            "sourceData": {},
+            "changes": []
+          },
+          "start": null,
+          "showIcon": 1,
+          "_key": "!actors.items.effects!pkQv4oG5ZeJgzGXw.mrTPyvzhoB4PBkz4.ra1EGVf9mHjb4JrR"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-laws-pet-shoppe.pet_traits.I7L7UACo7qOuni3l",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 2900000,
+      "_key": "!actors.items!pkQv4oG5ZeJgzGXw.mrTPyvzhoB4PBkz4"
+    },
+    {
+      "_id": "kEjMAuJm21uOmEPT",
+      "name": "Weapon",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature carries a melee weapon, or uses teeth, claws, or similar in combat.\n                \n                The weapon causes Damage equal to its Rating which already includes the creature’s Strength Bonus. Typically it will be 4 + its Strength Bonus (representing a Hand Weapon)"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": true,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "ws",
+          "bonusCharacteristic": "s",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": 3,
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.traits.AtpAudHA4ybXVlWM",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 3100000,
+      "_key": "!actors.items!pkQv4oG5ZeJgzGXw.kEjMAuJm21uOmEPT"
+    },
+    {
+      "_id": "PhclJ0luRyMxt25R",
+      "name": "Sure-Feet",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The creature can instinctually find its footing, even when it has a rider on its back. The creature automatically passes all Tests concerning uncertain footing caused by such things as screes, rocky trails, heavy undergrowth, and similar.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-laws-pet-shoppe.pet_traits.nVwhRohiJRJThYnj",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 4000000,
+      "_key": "!actors.items!pkQv4oG5ZeJgzGXw.PhclJ0luRyMxt25R"
+    },
+    {
+      "_id": "JyXZGdict4x64TJE",
+      "name": "Hardy",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature can sustain more damage than most. Increase its Wounds by a number equal to its Toughness Bonus (applied before any Size modifers). \r\r"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "2",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [
+        {
+          "_id": "yrUvulIfrQfAJmkB",
+          "name": "Hardy",
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "disabled": false,
+          "transfer": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "tint": "#ffffff",
+          "flags": {
+            "wfrp4e": {}
+          },
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "equipTransfer": false
+            },
+            "scriptData": [
+              {
+                "label": "Hardy",
+                "trigger": "preWoundCalc",
+                "script": "args.multiplier.tb += 2",
+                "options": {}
+              }
+            ],
+            "zone": {},
+            "sourceData": {},
+            "changes": []
+          },
+          "_key": "!actors.items.effects!pkQv4oG5ZeJgzGXw.JyXZGdict4x64TJE.yrUvulIfrQfAJmkB"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 100000,
+      "_key": "!actors.items!pkQv4oG5ZeJgzGXw.JyXZGdict4x64TJE"
+    },
+    {
+      "_id": "GUED9dNtURyRa9rF",
+      "name": "Stride",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The creature has a long stride, perhaps because it is a quadruped or has especially long legs. Multiply Run Movement by 1.5 when Running.&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [
+        {
+          "_id": "bSNlAHOT09D6Bx16",
+          "flags": {
+            "wfrp4e": {}
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "origin": null,
+          "name": "Stride",
+          "description": "",
+          "statuses": [],
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none"
+              },
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {}
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Stride",
+                "trigger": "prepareData",
+                "script": "[Script.ZJy2rvpKmUHXGrAi]",
+                "options": {}
+              }
+            ],
+            "zone": {},
+            "sourceData": {},
+            "changes": []
+          },
+          "start": {
+            "combat": null,
+            "round": null,
+            "time": 0,
+            "turn": null,
+            "combatant": null,
+            "initiative": null
+          },
+          "showIcon": 1,
+          "_key": "!actors.items.effects!pkQv4oG5ZeJgzGXw.GUED9dNtURyRa9rF.bSNlAHOT09D6Bx16"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 900000,
+      "_key": "!actors.items!pkQv4oG5ZeJgzGXw.GUED9dNtURyRa9rF"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": "Compendium.wfrp4e-laws-pet-shoppe.pet_bestiary_breeds.pkQv4oG5ZeJgzGXw",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!pkQv4oG5ZeJgzGXw"
+}

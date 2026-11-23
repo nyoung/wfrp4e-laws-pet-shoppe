@@ -1,0 +1,75 @@
+{
+  "_id": "OvPz4o4GzXuWDwpE",
+  "name": "Cat (Verger Tuftcat)",
+  "type": "trapping",
+  "img": "modules/wfrp4e-laws-pet-shoppe/assets/icons/cat.webp",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The large Verger Tuftcat is only found in the Northern Marches of Ostland and the Eastern Oblast of Kislev. It has a dense silvery-white coat with a ruffed face and tufted ears. It is distinctive for having longer back legs giving it a particularly powerful leap, and for having a stubby, almost non-existent tail. A common pet of Ungol tribesfolk in the area, the Tuftcat is commonly used by hunters to track and fetch small game and fish. Unlike most cats, this breed is not only easy to train, it is surprisingly affectionate.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "2",
+      "ss": "2",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "trappingType": {
+      "type": "String",
+      "label": "Trapping Type",
+      "value": "misc"
+    },
+    "worn": false,
+    "spellIngredient": {
+      "type": "String",
+      "value": ""
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!OvPz4o4GzXuWDwpE"
+}

@@ -1,0 +1,85 @@
+{
+  "_id": "MVpXhMYuMNoDJyOH",
+  "name": "Destrier (Vorberger)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/heavy-warhorse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Over two-thousand years of military service has granted the good-natured Vorberger a solid reputation as the warhorse of choice in the Reikland. Usually dark bay in colour with white markings to the face and lower legs, the horse is squat and muscular, with a broad back and shorter, powerful legs. Once the mainstay of the Sigmarite Knightly Orders, it has somewhat fallen from favour as the rich and powerful turn to larger, stronger animals from Ostermark and Averland. Most horses of the breed average at around 16 hands. (This is the equivalent of the 'Heavy Warhorse' from the&nbsp;<strong>Enemy in Shadows Companion</strong>, p. 24.)</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": null
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "230",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "scarce"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 20
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!MVpXhMYuMNoDJyOH"
+}

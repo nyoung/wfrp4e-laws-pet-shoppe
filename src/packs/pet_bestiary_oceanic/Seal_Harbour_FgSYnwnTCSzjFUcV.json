@@ -1,0 +1,2576 @@
+{
+  "_id": "FgSYnwnTCSzjFUcV",
+  "name": "Seal, Harbour",
+  "type": "creature",
+  "img": "modules/wfrp4e-laws-pet-shoppe/assets/icons/seal-token.webp",
+  "system": {
+    "characteristics": {
+      "ws": {
+        "type": "number",
+        "label": "CHAR.WS",
+        "abrev": "CHARAbbrev.WS",
+        "initial": 25,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 10,
+        "bonus": 1,
+        "cost": 25
+      },
+      "bs": {
+        "type": "Number",
+        "label": "CHAR.BS",
+        "abrev": "CHARAbbrev.BS",
+        "initial": 0,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 0,
+        "bonus": 0,
+        "cost": 25
+      },
+      "s": {
+        "type": "Number",
+        "label": "CHAR.S",
+        "abrev": "CHARAbbrev.S",
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 5,
+        "bonus": 0,
+        "cost": 25
+      },
+      "t": {
+        "type": "Number",
+        "label": "CHAR.T",
+        "abrev": "CHARAbbrev.T",
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 10,
+        "bonus": 1,
+        "cost": 25
+      },
+      "i": {
+        "type": "Number",
+        "label": "CHAR.I",
+        "abrev": "CHARAbbrev.I",
+        "initial": 25,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 20,
+        "bonus": 2,
+        "cost": 25
+      },
+      "ag": {
+        "type": "Number",
+        "label": "CHAR.Ag",
+        "abrev": "CHARAbbrev.Ag",
+        "initial": 30,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 20,
+        "bonus": 2,
+        "cost": 25
+      },
+      "dex": {
+        "type": "Number",
+        "label": "CHAR.Dex",
+        "abrev": "CHARAbbrev.Dex",
+        "initial": 0,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 0,
+        "bonus": 0,
+        "cost": 25
+      },
+      "int": {
+        "type": "Number",
+        "label": "CHAR.Int",
+        "abrev": "CHARAbbrev.Int",
+        "initial": 10,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 5,
+        "bonus": 0,
+        "cost": 25
+      },
+      "wp": {
+        "type": "Number",
+        "label": "CHAR.WP",
+        "abrev": "CHARAbbrev.WP",
+        "initial": 25,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 10,
+        "bonus": 1,
+        "cost": 25
+      },
+      "fel": {
+        "type": "Number",
+        "label": "CHAR.Fel",
+        "abrev": "CHARAbbrev.Fel",
+        "initial": 0,
+        "modifier": 0,
+        "advances": 0,
+        "calculationBonusModifier": 0,
+        "value": 0,
+        "bonus": 0,
+        "cost": 25
+      }
+    },
+    "status": {
+      "wounds": {
+        "type": "Number",
+        "label": "Wounds",
+        "abrev": "W",
+        "value": 11,
+        "max": 11
+      },
+      "advantage": {
+        "type": "Number",
+        "label": "Advantage",
+        "value": 0,
+        "max": 10
+      },
+      "criticalWounds": {
+        "type": "Number",
+        "label": "Critical Wounds",
+        "value": 0,
+        "max": 1
+      },
+      "sin": {
+        "type": "Number",
+        "label": "Sin",
+        "value": "0"
+      },
+      "penalties": {
+        "type": "String",
+        "label": "Penalties",
+        "value": ""
+      },
+      "corruption": {
+        "type": "Number",
+        "label": "Corruption",
+        "value": 0
+      },
+      "encumbrance": {
+        "type": "Number",
+        "label": "Encumbrance",
+        "max": 1,
+        "current": 0
+      },
+      "mount": {
+        "id": "",
+        "mounted": false,
+        "isToken": false,
+        "tokenData": {
+          "scene": "",
+          "token": ""
+        }
+      }
+    },
+    "details": {
+      "species": {
+        "type": "String",
+        "label": "Species",
+        "value": "Seal, Harbour",
+        "subspecies": ""
+      },
+      "gender": {
+        "type": "String",
+        "label": "Gender",
+        "value": ""
+      },
+      "biography": {
+        "type": "String",
+        "label": "Biography",
+        "value": "<p>Seal</p>\n<p><strong>Habitat: </strong>Coast, oceanic (ice)<span class=\"Apple-converted-space\">&nbsp;</span></p>\n<p><strong>Range: </strong>Sea of Claws, Sea of Chaos, The Frozen Sea<span class=\"Apple-converted-space\">&nbsp;</span></p>\n<ul>\n<li>Adults can atain a length of 6.1 feet</li>\n<li>Seals have whiskers and a very acute sense of touch, much like cats. Scientists think seals can use their whiskers to detect vibrations from swimming prey. Blind seals in the wild seem to be able to hunt and feed without sight.</li>\n<li>A seal&rsquo;s body stores enough fat in the blubber layer to allow the animal to go for extended periods of time without eating.</li>\n<li>Seals can sleep underwater.</li>\n<li>Some seals can hold their breath underwater for up to 2 hours and dive up to 984 yards in depth</li>\n</ul>"
+      },
+      "gmnotes": {
+        "type": "String",
+        "label": "GM Notes",
+        "value": ""
+      },
+      "size": {
+        "type": "String",
+        "label": "Size",
+        "value": "tiny"
+      },
+      "move": {
+        "type": "Number",
+        "label": "Movement",
+        "value": 1,
+        "walk": 2,
+        "run": 8
+      },
+      "god": {
+        "type": "String",
+        "label": "God",
+        "value": null
+      },
+      "status": {
+        "type": "String",
+        "value": "",
+        "standing": "",
+        "tier": 0,
+        "modifier": 0
+      },
+      "hitLocationTable": {
+        "value": "hitloc",
+        "type": "String",
+        "label": "Hit Location Table"
+      }
+    },
+    "excludedTraits": [
+      "sUrBoUbE5psNPgLn",
+      "CwH4919sUQjc4Iji",
+      "Gu2BYFTumMwclxdI",
+      "NrvG7yL7VahlTNIz",
+      "HlDGCbWPvBcYmjTB",
+      "Gwa2kSlcLYSoSwza"
+    ]
+  },
+  "prototypeToken": {
+    "name": "Seal, Harbour",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/wfrp4e-laws-pet-shoppe/assets/icons/seal-token.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff"
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 0,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "status.wounds"
+    },
+    "bar2": {
+      "attribute": "status.advantage"
+    },
+    "randomImg": false,
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360
+    },
+    "light": {
+      "dim": 0,
+      "bright": 0,
+      "angle": 360,
+      "color": null,
+      "alpha": 1
+    },
+    "flags": {
+      "autorotate": {
+        "enabled": false
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "sN59WyrwOBtVvJCf",
+      "name": "Night Vision",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>You can see very well in natural darkness. Assuming you have at least a faint source of light (such as starlight, moonlight, or bioluminescence) you can see clearly for 20 yards per level of Night Vision. Further, you can extend the effective illumination distance of any light sources by 20 yards per level of Night Vision.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 600001,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.sN59WyrwOBtVvJCf"
+    },
+    {
+      "_id": "r4yygy5Ipjvmo375",
+      "name": "Infected",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature, or its weapon, carries a nasty infection. If it causes a living opponent to lose Wounds, it must pass an <strong>Easy (+40) Endurance Test</strong> or contract a @UUID[Compendium.wfrp4e-core.items.Item.kKccDTGzWzSXCBOb]{Festering Wound}\r\r"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [
+        {
+          "_id": "6rMAx2bGefOkubv8",
+          "flags": {
+            "wfrp4e": {}
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "origin": null,
+          "name": "Infected",
+          "description": "",
+          "statuses": [],
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none"
+              },
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {}
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Infected",
+                "trigger": "applyDamage",
+                "script": "[Script.LQEWSN5KnHHATPsf]",
+                "options": {
+                  "dialog": {
+                    "hideScript": "",
+                    "activateScript": "",
+                    "submissionScript": "",
+                    "targeter": false
+                  },
+                  "immediate": {
+                    "deleteEffect": false
+                  },
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false
+                }
+              }
+            ],
+            "zone": {},
+            "sourceData": {},
+            "changes": []
+          },
+          "start": {
+            "combat": null,
+            "round": null,
+            "time": 0,
+            "turn": null,
+            "combatant": null,
+            "initiative": null
+          },
+          "showIcon": 1,
+          "_key": "!actors.items.effects!FgSYnwnTCSzjFUcV.r4yygy5Ipjvmo375.6rMAx2bGefOkubv8"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 1100001,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.r4yygy5Ipjvmo375"
+    },
+    {
+      "_id": "tNGLYGJ6UzAY5zir",
+      "name": "Bestial",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature has no rational thought or language. It shies away from fire and gains a Broken Condition if struck by it. In defense, it only uses the Dodge Skill. If it loses more than half its Wounds, it will attempt to Flee unless protecting its young or cornered, or unless it has the Territorial Trait. If so, it enters Frenzy. Bestial creatures have no Fellowship characteristic \r\r"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.traits.AGcJl5rHjkyIQBPP",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 2400000,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.tNGLYGJ6UzAY5zir"
+    },
+    {
+      "_id": "KfyBBQqxZ5Q7xqsg",
+      "name": "Skittish",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature is easily scared by magic or loud noises. If such occurs, it receives +3 Broken Conditions \r\r"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.traits.IPKRMGry6WotuS1G",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 2700000,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.KfyBBQqxZ5Q7xqsg"
+    },
+    {
+      "_id": "mQxCOwdUjpvbCMHI",
+      "name": "Swim",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-s.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your ability to swim in water without drowning. If you have the Swim Skill, you are automatically presumed to be able to swim freely without a Test. But if you find yourself in difficult currents, racing, or ﬂeeing from an oversized shark sent by Stromfels, the God of Drowning, a Test will be required. This may be modified by the condition of the water, or how encumbered you are by clothes, armor, and other trappings.</p>\n<p>&nbsp;</p>\n<p>Swim is only used in combat if you happen to be fighting in the water, where it replaces Skills like Athletics to govern Movement. If exact speeds are required, you swim at half your Movement rate, using the normal rules for moving.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "s"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.hodHqFNKAmu40ajh",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 0,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.mQxCOwdUjpvbCMHI"
+    },
+    {
+      "_id": "LqJeRxN4ZKlEcoVL",
+      "name": "Wayfinder",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The creature has an instinctual ability through magical or natural senses, such as magnetic fields, reading signs or detecting the winds of magic (from the polar gates), to find their way accurately even without maps or instruments. They add SL equal to their Initiative Bonus to all Navigation Tests.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        }
+      },
+      "effects": [
+        {
+          "_id": "nu2ehFABzVT5MCvD",
+          "name": "Wayfinder",
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "disabled": false,
+          "transfer": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "tint": "#ffffff",
+          "flags": {
+            "wfrp4e": {
+              "hide": false
+            }
+          },
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "equipTransfer": false
+            },
+            "scriptData": [
+              {
+                "label": "Wayfinder",
+                "trigger": "dialog",
+                "script": "let sl = this.actor.characteristics.i.bonus\n   args.fields.slBonus += sl;",
+                "options": {
+                  "activateScript": "return !!args.skill?.name.includes(\"Navigation\")",
+                  "hideScript": "return !args.skill?.name.includes(\"Navigation\")",
+                  "submissionScript": "",
+                  "targeter": false
+                }
+              }
+            ],
+            "zone": {},
+            "sourceData": {},
+            "changes": []
+          },
+          "_key": "!actors.items.effects!FgSYnwnTCSzjFUcV.LqJeRxN4ZKlEcoVL.nu2ehFABzVT5MCvD"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 0,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.LqJeRxN4ZKlEcoVL"
+    },
+    {
+      "_id": "BTyjeNtlqnpEXLJR",
+      "name": "Navigation",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Navigation allows you to find your way in the wilderness using landmarks, stellar bodies or maps. Possessing the Navigation Skill means you know roughly where you are, and can find your way between well-known landmarks without a Test. A Test is only required if you are disoriented or travelling far from the beaten path, with success showing you the correct direction, or allowing you to avoid mishap.</p>\n<p>&nbsp;</p>\n<p>If you are navigating a long journey, your GM may ask for an extended Navigation Test, modified by conditions, visible landmarks, and access to reliable geographical information. The SL required to succeed depends on how far the destination is, with each Test representing between an hour and a day’s travel, depending on the nature of the journey</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "i"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.zZUX7wO4rOo8k9F0",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 0,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.BTyjeNtlqnpEXLJR"
+    },
+    {
+      "_id": "7gZtMjdav8gTsFKF",
+      "name": "Perception",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your ability to notice things with your senses — sight, smell, hearing, touch, and taste, and any other senses you may possess, such as magical or non-Human senses. Your GM may ask for a Perception Test to detect something, like movement behind the treeline, the presence of a trap, or someone following you, modified by how easy it is to notice. Perception is also used to resist attempts to hide things through Skills such as Sleight of Hand or Stealth. Perception has multiple uses in combat, most commonly to notice important details beyond the immediately obvious about the surrounding environment and your opponents, as determined by the GM.&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "i"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.Fs06sr7y9JKpVQmB",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 100000,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.7gZtMjdav8gTsFKF"
+    },
+    {
+      "_id": "LxMzyMvcjipDs8yF",
+      "name": "Swim Speed (5)",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        }
+      },
+      "effects": [
+        {
+          "_id": "nu2ehFABzVT5MCvD",
+          "name": "Swim Speed (5)",
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "disabled": false,
+          "transfer": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "tint": "#ffffff",
+          "flags": {
+            "wfrp4e": {
+              "hide": false
+            }
+          },
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "equipTransfer": false
+            },
+            "scriptData": [
+              {
+                "label": "Swim Speed (5)",
+                "trigger": "prepareData",
+                "script": "args.actor.details.move.value = 5\nargs.actor.details.move.walk = 10\nargs.actor.details.move.run = 15",
+                "options": {}
+              }
+            ],
+            "zone": {},
+            "sourceData": {},
+            "changes": []
+          },
+          "_key": "!actors.items.effects!FgSYnwnTCSzjFUcV.LxMzyMvcjipDs8yF.nu2ehFABzVT5MCvD"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 700000,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.LxMzyMvcjipDs8yF"
+    },
+    {
+      "_id": "24SomQS7pHsmeVQw",
+      "name": "Amphibious",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature is at home in water. It can add its Agility Bonus to the SL of all Swim Tests and move at full Movement through water. \r\r"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [
+        {
+          "_id": "nuFU9VPZxcne80Ju",
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "transfer": true,
+          "flags": {
+            "wfrp4e": {
+              "hide": false
+            }
+          },
+          "tint": "#ffffff",
+          "origin": null,
+          "name": "Amphibious",
+          "description": "",
+          "statuses": [],
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none"
+              },
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {}
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Amphibious",
+                "trigger": "dialog",
+                "script": "[Script.KVuPduDztyMZQNt9]",
+                "options": {
+                  "dialog": {
+                    "activateScript": "[Script.QQ2gHThZHdO4yLLX]",
+                    "hideScript": "[Script.sUHuj00IpoZ7Gd03]",
+                    "submissionScript": "",
+                    "targeter": false
+                  },
+                  "immediate": {
+                    "deleteEffect": false
+                  },
+                  "activateScript": "[Script.QQ2gHThZHdO4yLLX]",
+                  "hideScript": "[Script.sUHuj00IpoZ7Gd03]",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false
+                }
+              }
+            ],
+            "zone": {},
+            "sourceData": {},
+            "changes": []
+          },
+          "start": {
+            "combat": null,
+            "round": null,
+            "time": 0,
+            "turn": null,
+            "combatant": null,
+            "initiative": null
+          },
+          "showIcon": 1,
+          "_key": "!actors.items.effects!FgSYnwnTCSzjFUcV.24SomQS7pHsmeVQw.nuFU9VPZxcne80Ju"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.traits.sJ3yX1kvzu2hgNq5",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 0,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.24SomQS7pHsmeVQw"
+    },
+    {
+      "_id": "y8LkRXmTRmcuSDBe",
+      "name": "Swimmer",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Start with <em>Swim</em> Skill +10</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": null
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [
+        {
+          "_id": "EGzz9qR6NhaAkppF",
+          "name": "Swimmer",
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "disabled": false,
+          "transfer": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "tint": "#ffffff",
+          "flags": {
+            "wfrp4e": {
+              "hide": false
+            }
+          },
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "equipTransfer": false
+            },
+            "scriptData": [
+              {
+                "label": "Swimmer",
+                "trigger": "dialog",
+                "script": "args.fields.modifier += 10;",
+                "options": {
+                  "activateScript": "return args.skill?.name == \"Swim\"",
+                  "hideScript": "return !args.skill?.name.includes(\"Swim\")",
+                  "submissionScript": "",
+                  "targeter": false
+                }
+              }
+            ],
+            "zone": {},
+            "sourceData": {},
+            "changes": []
+          },
+          "_key": "!actors.items.effects!FgSYnwnTCSzjFUcV.y8LkRXmTRmcuSDBe.EGzz9qR6NhaAkppF"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-laws-pet-shoppe.pet_traits.s0FI6MpTpfVNyk5P",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 0,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.y8LkRXmTRmcuSDBe"
+    },
+    {
+      "_id": "F0b5g9i8N35FeXQQ",
+      "name": "Athletics",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your ability to run, jump and move with speed or grace, and to perform any general physical activity. Refer to Moving for details on using Athletics in combat movement.&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "ag"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.LGHozP5gmQ8cuDQV",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 75000,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.F0b5g9i8N35FeXQQ"
+    },
+    {
+      "_id": "bxiE0D5csE5HHAK3",
+      "name": "Climb",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-s.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The ability to ascend steep or vertical surfaces.</p>\n        <p>If time isn’t an issue, and a climb is relatively easy, anyone with Climb Skill is automatically assumed to be able to climb any reasonably small height.</p>\n        <p>For any other climbing, refer to @UUID[Compendium.wfrp4e-core.journals.JournalEntry.6zOdTLv3YeYeJ4hR.JournalEntryPage.yOONKSIBrg4FOl20]{Climbing}. You may even find yourself climbing large opponents, though whether that is prudent is debatable.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "s"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.sRuMlaPU5xdIrwhd",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 91407,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.bxiE0D5csE5HHAK3"
+    },
+    {
+      "_id": "c8EgiLWHad3mkk2L",
+      "name": "Cool",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-wp.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Cool allows you to remain calm under stress, resist fear when faced with horror, and stick to your convictions.</p>\n<p>&nbsp;</p>\n<p>Cool is generally used to resist other Skills — Charm, Intimidate, and similar — but you may also be required to make a Cool Test when faced with anything forcing you to do something you would rather not. Cool is also the primary Skill used to limit Psychology</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "wp"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.pxNjTxsp1Kp0SmQe",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 68750,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.c8EgiLWHad3mkk2L"
+    },
+    {
+      "_id": "EUB8DWqcMD6qecW7",
+      "name": "Dodge",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Dodge is your ability to avoid things, through ducking, diving, and moving quickly, and is used extensively to sidestep falling rocks, incoming weapons, unexpected traps, and the like.</p>\n<p>In combat, Dodge is generally used to resist attacks or avoid damage. Refer to Rolling to Hit.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "ag"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.1jCxbFAUuFuAPLJl",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 92188,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.EUB8DWqcMD6qecW7"
+    },
+    {
+      "_id": "MY8HEbrVgoxGuG87",
+      "name": "Endurance",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-t.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The Endurance Skill is called upon when you must endure hardship, withstand deprivation, sit without moving for long periods of time, or survive harsh environments. In particular, Endurance is Tested to resist or recover from various Conditions and helps you recover lost Wounds.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "t"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.CcNJsS4jSwB6Ug1J",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": -275000,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.MY8HEbrVgoxGuG87"
+    },
+    {
+      "_id": "hxy3aQ8p60qRl0mq",
+      "name": "Intimidate",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-s.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Allows you to coerce or frighten sentient creatures. The precise manner of initiating an Intimidate Test depends on context: while it is generally accompanied by an overt threat, sometimes a subtle implication or even a look is enough. Intimidate is almost always Opposed by your target’s Cool Skill; if successful, you can intimidate a number of targets up to your Strength Bonus + SL. Each will react to Intimidate based on their individual personalities and how successful you were in menacing them, but in all cases, they will back down or move out of the way and will not speak out against you, or they will alternatively accept combat is the only way forward and prepare their weapons.</p>\n<p>&nbsp;</p>\n<p>In combat, you cause @UUID[Compendium.wfrp4e-core.items.Item.Ib2YQYChktDFN93y]{Fear} in all Intimidated targets. You may also use your Intimidate Skill instead of Melee when defending against those afraid of you, causing the Intimidated parties to back away from the fight with your will and posture alone. Further, with your GM’s approval, you may use Intimidate to ‘attack’ such targets, issuing specific commands, such as ‘drop your weapons’ or ‘get out of here!’. However, if you fail any of these subsequent Intimidate Tests, you no longer Intimidate (or cause Fear) in affected opponents. With your GM’s permission you may try to Intimidate them again in a later Round, but this will incur a negative modifier, as they are less likely to fear you having seen through your bravado once already.</p>\n<p>&nbsp;</p>\n<h3>Alternative Characteristics For Intimidate</h3>\n<p>While strength is the default stat for Intimidate tests, the GM may decree certain situations may allow you to use a different characteristic: a steely witch hunter may use Willpower to stare down an inquisitive bystander, or an academic may use Intelligence to cow a lowly student with his intimidating knowledge, for instance.&nbsp;</p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: bold;\">Example: </span><span style=\"font-style: italic;\">Facing a group of footpads, Svetlana the Strong rolls 4 SL on her Intimidate Test. Combined with her SB of 5, this means she can affect up to 9 targets, more than enough to impact all three footpads who now Fear Svetlana. As she has won by 3 SL, she gains +1 Advantage point until the end of her next turn. In the next round, she ‘attacks’ the footpads using her Intimidate, intending to scare them into leaving her be. However, she fails the Test, and the footpads realize they outnumber her, and are armed…&nbsp;</span></p>\n<p>&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "s"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.I0yPc4PH5erWJLmu",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 37500,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.hxy3aQ8p60qRl0mq"
+    },
+    {
+      "_id": "DAPkQWwkgAHO0omr",
+      "name": "Intuition",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The Intuition Skill allows you to get a feel for your surroundings, leading you to notice when something is wrong, and gives you a sense of when people may be hiding something from you. A successful use of the Intuition Skill gives you subtle or implicit intelligence relating to your environment, determined by your GM. This may be information such as whether someone believes what they are saying, what the general attitude is towards the local noble, or if the helpful local’s motives are as pure as they seem. If someone is actively trying to hide their intent, they may resist your Intuition with Cool or Entertain (Acting).</p>\n                        <p>&nbsp;</p>\n                        <p>In combat, a successful Intuition Test may be used to give you +1 Advantage as you weigh the environment and your opponents. You may continue building Advantage in subsequent turns providing you are able to observe your targets and are not interrupted (such as being attacked); you may gain a maximum Advantage equal to your Intelligence Bonus in this manner.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "i"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.cYtU0ORRFCOpQLWz",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 93750,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.DAPkQWwkgAHO0omr"
+    },
+    {
+      "_id": "NB9EPFtURgFDflnY",
+      "name": "Outdoor Survival",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-int.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The Outdoor Survival Skill is used to survive in the wild, including the ability to fish, hunt, forage, and build fires and shelters. Experienced travelers are skilled at reading the signs of incoming inclement weather and finding the spoor of various dangerous beasts.</p>\n<p>&nbsp;</p>\n<p>When camping, make an Outdoor Survival Test, modified by the harshness of conditions — for instance, a Test is Challenging (+0) if it is raining, Hard (–20) in a storm. A successful Test indicates you can provide yourself sustenance and shelter for the night. Each SL allows you to provide for one more character. If the Test is failed, you must make a Challenging (+0) Endurance Test or receive the Fatigued Condition. If you suffer an Astounding Failure, something untoward has happened, as determined by the GM; perhaps your camp is attacked in the night?</p>\n<p>&nbsp;</p>\n<p>When fighting in the wilderness, you may make an Outdoor Survival Test to receive +1 Advantage, in the same way as Intuition, to a maximum number of Advantage equal to your Intelligence Bonus, as you spy out treacherous and advantageous terrain that you can best use to your advantage.</p>\n<p>&nbsp;</p>\n<h3>Gathering Food and Herbs</h3>\n<p>Gathering food or herbs normally takes around 2 hours. Hunting and foraging parties make one assisted Outdoor Survival Test for the group, with the Difficulty determined by the circumstances.</p>\n<ul type=\"disc\">\n<li>Foraging: A success grants enough food for one character. Every SL yields sufficient extra food for one more person.&nbsp;</li>\n</ul>\n<p>&nbsp;</p>\n<ul type=\"disc\">\n<li>Hunting and Fishing: if you have appropriate bows, spears, fishing rods, or nets, a successful Test feeds two people, and an extra two people per SL.</li>\n</ul>\n<p>&nbsp;</p>\n<ul type=\"disc\">\n<li>Trapping: Use the Set Trap Skill to place A@UUID[Compendium.wfrp4e-core.items.Item.k0KeWhPgFGUcOgs0]{Animal traps}. Feeds the same number of people as hunting and Fishing.</li>\n</ul>\n<p>&nbsp;</p>\n<ul type=\"disc\">\n<li>Lore (Herbs):&nbsp;if you are instead gathering herbs using Lore (Herbs), a success gathers enough for a dose of the sought herb , with each SL adding an extra dose. Gathering tests are modified by herb Availability: Common (0), Scarce (–10), Rare (–20), or Exotic (–30)&nbsp;</li>\n</ul>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "int"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.os4NKy5Oy6sRt1eh",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 50000,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.NB9EPFtURgFDflnY"
+    },
+    {
+      "_id": "gevkTe2l0lshUxPJ",
+      "name": "Stealth ()",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-ag.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Allows you to creep quietly and conceal yourself in shadows more readily than most. Stealth is generally Opposed by an opponent’s Perception Skill, and Tests will be modifed by how dark or well concealed your route is, as well as how circumspectly you are dressed. An Impressive or Astounding Failure on a Stealth Test will likely draw the immediate attention of the enemies you were trying to avoid in the first place.</p>\n<p>&nbsp;</p>\n<p>Stealth has many potential applications in combat, most usefully to hide oneself in preparation for an Ambush, or to creep around an opponent in order to attack from behind. Of course, you can also use the Skill to escape a conﬂict unseen…</p>\n<h3>&nbsp;</h3>\n<p><span style=\"font-weight: bold;\">Specializations: </span>Rural, Underground, Urban&nbsp;</p>\n<p>&nbsp;</p>\n<h3>Options: Shadowing</h3>\n<p>Shadowing is following someone secretly. To do this requires a Combined Perception and Stealth Test. If the target is actively trying to lose a tail, it is Opposed with the target’s Stealth Skill.</p>\n<p>&nbsp;</p>\n<p>If you pass the Perception Test, and fail the Stealth Test you follow your target, but are spotted. If you fail the perception Test, yet pass the Stealth Test, you lose your target, but go unnoticed</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "ag"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.McTtmZu3Ac8Lh48W",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 300000,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.gevkTe2l0lshUxPJ"
+    },
+    {
+      "_id": "OXG2LAt3QMKmDt2J",
+      "name": "Keen Senses (Touch)",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>&nbsp;One of the creatures primary five senses is highly developed, allowing them to spot what others miss. This normally increases its breadth, range or detail. They may take Perception Tests to detect things that are normally imperceptible with the associated sense, as dictated by the GM and may add SL equal to their Initiative Bonus to all Perception (sense) Tests.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        }
+      },
+      "effects": [
+        {
+          "_id": "9MzNNsfMv1p6UQI3",
+          "name": "Keen Senses (Touch)",
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "disabled": false,
+          "transfer": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "tint": "#ffffff",
+          "flags": {
+            "wfrp4e": {
+              "hide": false
+            }
+          },
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "equipTransfer": false
+            },
+            "scriptData": [
+              {
+                "label": "Keen Senses (Touch)",
+                "trigger": "dialog",
+                "script": "let sl = this.actor.characteristics.i.bonus\n   args.fields.slBonus += sl;",
+                "options": {
+                  "activateScript": "return !!args.skill?.name.includes(\"Perception (Touch)\")",
+                  "hideScript": "return !args.skill?.name.includes(\"Perception\")",
+                  "submissionScript": "",
+                  "targeter": false
+                }
+              }
+            ],
+            "zone": {},
+            "sourceData": {},
+            "changes": []
+          },
+          "_key": "!actors.items.effects!FgSYnwnTCSzjFUcV.OXG2LAt3QMKmDt2J.9MzNNsfMv1p6UQI3"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": -81250,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.OXG2LAt3QMKmDt2J"
+    },
+    {
+      "_id": "Cibr1UZyfExqzaBu",
+      "name": "Stone Soup",
+      "type": "talent",
+      "img": "modules/wfrp4e-core/icons/talents/stone-soup.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "You are used to getting by with less, and know how to survive lean times. You can subsist on half the amount of food required without any negative penalties (bar feeling really hungry), and need only test for Starvation every 3 days, not 2"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "max": {
+          "type": "String",
+          "label": "Max Advances",
+          "value": "t"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 1,
+          "force": false
+        },
+        "career": {
+          "value": "",
+          "type": "String",
+          "label": "Career"
+        },
+        "tests": {
+          "type": "String",
+          "label": "Tests",
+          "value": "Endurance Tests to resist hunger"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [
+        {
+          "name": "Stone Soup",
+          "flags": {
+            "wfrp4e": {}
+          },
+          "_id": "e15hFeStjtgtyCQU",
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "transfer": true,
+          "statuses": [],
+          "tint": "#ffffff",
+          "img": "modules/wfrp4e-core/icons/talents/stone-soup.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none"
+              },
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {}
+              }
+            },
+            "scriptData": [
+              {
+                "label": "@item.system.tests.value",
+                "trigger": "dialog",
+                "script": "[Script.956dUb5sd6OtbWZR]",
+                "options": {
+                  "dialog": {
+                    "hideScript": "[Script.PdClojv7yNgQpOUc]",
+                    "activateScript": "",
+                    "submissionScript": "",
+                    "targeter": false
+                  },
+                  "immediate": {
+                    "deleteEffect": false
+                  },
+                  "hideScript": "[Script.PdClojv7yNgQpOUc]",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false
+                }
+              }
+            ],
+            "zone": {},
+            "sourceData": {},
+            "changes": []
+          },
+          "start": null,
+          "showIcon": 1,
+          "_key": "!actors.items.effects!FgSYnwnTCSzjFUcV.Cibr1UZyfExqzaBu.e15hFeStjtgtyCQU"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.talents.spdiWsONKTzkLbg3",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 0,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.Cibr1UZyfExqzaBu"
+    },
+    {
+      "_id": "zKxcjNdKcvIXSWIW",
+      "name": "Track",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/adv-skill-i.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your ability to follow subtle trails left by others. Track is used to follow difficult trails across the wilderness. This is not a skill for following a set of footprints in the snow — a simple Perception test covers that — Track involves deeper knowledge and awareness used to recognize the subtle signs of a quarry’s passage. You can also attempt to hide your trail, in which case use your Track skill to oppose your pursuer’s Track Test.</p>\n        <p>&nbsp;</p>\n        <p>Often an Extended Track Test is required to follow a trail, with the Difficulty modified by how fresh the tracks are, and how suitable the ground is: damp earth betrays passage better than stony ground. The GM may also use the Pursuit rules to determine if you manage to track down a ﬂeeing quarry.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "adv",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "noSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "i"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.rt2rGSwFDCDHPh0A",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 90625,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.zKxcjNdKcvIXSWIW"
+    },
+    {
+      "_id": "7BfEyS84RJagHhKd",
+      "name": "Keen Senses (Smell)",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>&nbsp;One of the creatures primary five senses is highly developed, allowing them to spot what others miss. This normally increases its breadth, range or detail. They may take Perception Tests to detect things that are normally imperceptible with the associated sense, as dictated by the GM and may add SL equal to their Initiative Bonus to all Perception (sense) Tests.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        }
+      },
+      "effects": [
+        {
+          "_id": "9MzNNsfMv1p6UQI3",
+          "name": "Keen Senses (Smell)",
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "disabled": false,
+          "transfer": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "tint": "#ffffff",
+          "flags": {
+            "wfrp4e": {
+              "hide": false
+            }
+          },
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "equipTransfer": false
+            },
+            "scriptData": [
+              {
+                "label": "Keen Senses (Smell)",
+                "trigger": "dialog",
+                "script": "let sl = this.actor.characteristics.i.bonus\n   args.fields.slBonus += sl;",
+                "options": {
+                  "activateScript": "return !!args.skill?.name.includes(\"Perception (Smell)\")",
+                  "hideScript": "return !args.skill?.name.includes(\"Perception\")",
+                  "submissionScript": "",
+                  "targeter": false
+                }
+              }
+            ],
+            "zone": {},
+            "sourceData": {},
+            "changes": []
+          },
+          "_key": "!actors.items.effects!FgSYnwnTCSzjFUcV.7BfEyS84RJagHhKd.9MzNNsfMv1p6UQI3"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 0,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.7BfEyS84RJagHhKd"
+    },
+    {
+      "_id": "t7l0jhHl5cT6TbX3",
+      "name": "Perception (Smell)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your ability to notice things with your senses — sight, smell, hearing, touch, and taste, and any other senses you may possess, such as magical or non-Human senses. Your GM may ask for a Perception Test to detect something, like movement behind the treeline, the presence of a trap, or someone following you, modified by how easy it is to notice. Perception is also used to resist attempts to hide things through Skills such as Sleight of Hand or Stealth. Perception has multiple uses in combat, most commonly to notice important details beyond the immediately obvious about the surrounding environment and your opponents, as determined by the GM.&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "i"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.Fs06sr7y9JKpVQmB",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": -100000,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.t7l0jhHl5cT6TbX3"
+    },
+    {
+      "_id": "XH8bTnT6qxKuApyu",
+      "name": "Perception (Touch)",
+      "type": "skill",
+      "img": "modules/wfrp4e-core/icons/skills/basic-skill-i.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>Your ability to notice things with your senses — sight, smell, hearing, touch, and taste, and any other senses you may possess, such as magical or non-Human senses. Your GM may ask for a Perception Test to detect something, like movement behind the treeline, the presence of a trap, or someone following you, modified by how easy it is to notice. Perception is also used to resist attempts to hide things through Skills such as Sleight of Hand or Stealth. Perception has multiple uses in combat, most commonly to notice important details beyond the immediately obvious about the surrounding environment and your opponents, as determined by the GM.&nbsp;</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "advanced": {
+          "value": "bsc",
+          "type": "String"
+        },
+        "grouped": {
+          "value": "isSpec",
+          "type": "String"
+        },
+        "characteristic": {
+          "type": "String",
+          "label": "Characteristic",
+          "value": "i"
+        },
+        "advances": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0,
+          "costModifier": 0,
+          "force": false
+        },
+        "modifier": {
+          "type": "Number",
+          "label": "Advances",
+          "value": 0
+        },
+        "total": {
+          "type": "Number",
+          "label": "Total"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.skills.Fs06sr7y9JKpVQmB",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 0,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.XH8bTnT6qxKuApyu"
+    },
+    {
+      "_id": "y0rVSi7C3quLOXA3",
+      "name": "Armour",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature is protected by armor or thick hide. It has Rating Armor Points on all Hit Locations"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "1",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [
+        {
+          "_id": "CAcGBn8sq62mVUxJ",
+          "flags": {
+            "wfrp4e": {}
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "tint": "#ffffff",
+          "transfer": true,
+          "origin": null,
+          "name": "Armour",
+          "description": "",
+          "statuses": [],
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "avoidTest": {
+                "value": "none"
+              },
+              "testIndependent": false,
+              "equipTransfer": false,
+              "prompt": false,
+              "area": {
+                "aura": {}
+              }
+            },
+            "scriptData": [
+              {
+                "label": "Armour",
+                "trigger": "APCalc",
+                "script": "[Script.Vb7rgl8T4VRswbnZ]",
+                "options": {
+                  "dialog": {
+                    "hideScript": "",
+                    "activateScript": "",
+                    "submissionScript": "",
+                    "targeter": false
+                  },
+                  "immediate": {
+                    "deleteEffect": false
+                  },
+                  "hideScript": "",
+                  "activateScript": "",
+                  "submissionScript": "",
+                  "targeter": false,
+                  "deleteEffect": false
+                }
+              }
+            ],
+            "zone": {},
+            "sourceData": {},
+            "changes": []
+          },
+          "start": {
+            "combat": null,
+            "round": null,
+            "time": 0,
+            "turn": null,
+            "combatant": null,
+            "initiative": null
+          },
+          "showIcon": 1,
+          "_key": "!actors.items.effects!FgSYnwnTCSzjFUcV.y0rVSi7C3quLOXA3.CAcGBn8sq62mVUxJ"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 2700000,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.y0rVSi7C3quLOXA3"
+    },
+    {
+      "_id": "YJiMy5w5w2Zn6iWJ",
+      "name": "Dark Vision",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature can see in the dark as daylight. \r\r"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": "Compendium.wfrp4e-core.traits.JQa5DLnTs2SEzRrc",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 700000,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.YJiMy5w5w2Zn6iWJ"
+    },
+    {
+      "_id": "RGfzRrNM0lYnjbbW",
+      "name": "Weapon",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "The creature carries a melee weapon, or uses teeth, claws, or similar in combat.\n                \n                The weapon causes Damage equal to its Rating which already includes the creature’s Strength Bonus. Typically it will be 4 + its Strength Bonus (representing a Hand Weapon)"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": true,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "ws",
+          "bonusCharacteristic": "s",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "3",
+          "type": "String",
+          "label": "Specification"
+        },
+        "source": {
+          "type": "String",
+          "label": "Source"
+        }
+      },
+      "effects": [],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": 1300000,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.RGfzRrNM0lYnjbbW"
+    },
+    {
+      "_id": "xMqrt1T5Yta9JZIW",
+      "name": "Survival Sense",
+      "type": "trait",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "system": {
+        "description": {
+          "type": "String",
+          "label": "Description",
+          "value": "<p>The creature has an instinctual ability, to survive in the wild.&nbsp;Start with&nbsp;<em>Outdoor Survival</em>&nbsp;Skill +25.</p>"
+        },
+        "gmdescription": {
+          "type": "String",
+          "label": "Description",
+          "value": ""
+        },
+        "rollable": {
+          "value": false,
+          "damage": false,
+          "skill": "",
+          "label": "Rollable",
+          "type": "Boolean",
+          "rollCharacteristic": "",
+          "bonusCharacteristic": "",
+          "dice": "",
+          "defaultDifficulty": "challenging",
+          "SL": true,
+          "attackType": "melee"
+        },
+        "specification": {
+          "value": "",
+          "type": "String",
+          "label": "Specification"
+        }
+      },
+      "effects": [
+        {
+          "_id": "nu2ehFABzVT5MCvD",
+          "name": "Survival Sense",
+          "img": "modules/wfrp4e-core/icons/traits/trait.png",
+          "type": "base",
+          "disabled": false,
+          "transfer": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "statuses": [],
+          "tint": "#ffffff",
+          "flags": {
+            "wfrp4e": {
+              "hide": false
+            }
+          },
+          "system": {
+            "transferData": {
+              "type": "document",
+              "documentType": "Actor",
+              "equipTransfer": false
+            },
+            "scriptData": [
+              {
+                "label": "Survival Sense",
+                "trigger": "dialog",
+                "script": "args.fields.modifier += 25;",
+                "options": {
+                  "activateScript": "return args.skill?.name == \"Outdoor Survival\"",
+                  "hideScript": "return !args.skill?.name.includes(\"Outdoor Survival\")",
+                  "submissionScript": "",
+                  "targeter": false
+                }
+              }
+            ],
+            "zone": {},
+            "sourceData": {},
+            "changes": []
+          },
+          "_key": "!actors.items.effects!FgSYnwnTCSzjFUcV.xMqrt1T5Yta9JZIW.nu2ehFABzVT5MCvD"
+        }
+      ],
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.370",
+        "systemId": "wfrp4e",
+        "systemVersion": "10.1.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "sort": -76562,
+      "_key": "!actors.items!FgSYnwnTCSzjFUcV.xMqrt1T5Yta9JZIW"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": "Compendium.wfrp4e-laws-pet-shoppe.pet_bestiary_beasts.EwpGLAuwjmkhXqt2",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!FgSYnwnTCSzjFUcV"
+}

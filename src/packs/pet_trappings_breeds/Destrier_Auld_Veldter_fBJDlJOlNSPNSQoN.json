@@ -1,0 +1,85 @@
+{
+  "_id": "fBJDlJOlNSPNSQoN",
+  "name": "Destrier (Auld Veldter)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/heavy-warhorse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The towering Auld Veldter is one of the largest warhorses bred in the Reik Basin. Usually dun to grey or white with a long, flowing mane and tail, this destrier is a powerhouse that easily dominates any battlefield it graces. A relatively recent breed, it was named 'Auld' by the equerries of Ostermark's Veldt to provide the appearance of age in order to boost sales to the Knightly Orders across the Empire. The breed is rarely less than a full 17–18 hands tall.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": null
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "250",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "scarce"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 20
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!fBJDlJOlNSPNSQoN"
+}

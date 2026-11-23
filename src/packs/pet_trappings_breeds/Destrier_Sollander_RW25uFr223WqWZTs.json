@@ -1,0 +1,85 @@
+{
+  "_id": "RW25uFr223WqWZTs",
+  "name": "Destrier (Sollander)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/heavy-warhorse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The imposing Sollander may be colossal, but it is also elegant and well proportioned. The breed is usually grey, although bright perlinos and cremellos are not uncommon. It used to form, the backbone of the Solland army before that grand province fell over 700 years ago, but today is mostly bred in Wissenland and some parts of southern Averland. The fineness of the animal's form has led many to suggest that it is the noblest of all the Empire destriers, but the Sollander's foul temper and propensity to bite stands contrary to this reputation. A giant of a beast, most Sollander's are 18 hands in height or higher, making them somewhat impractical steeds for many, but that hasn't stopped it becoming one of the most expensive breeds in the Old World.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": null
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "1000",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "scarce"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 20
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!RW25uFr223WqWZTs"
+}

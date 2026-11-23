@@ -1,0 +1,85 @@
+{
+  "_id": "B9vFPM5Cul2oYXrG",
+  "name": "Dray (Kislevite Dray)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/heavy-draught-horse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The Kislevite Dray (<em>Kislevii Tyazhelovoz</em>) is one of the oldest dray breeds of the northern Old World. Early Dwarf records suggest it was used by Ungol and Friking tribesfolk that predate the Time of Sigmar. A heavy draught horse with a small head and short legs with no feathering, the roan animal is known for its long life (some 40 years of work on average) and its lively gait. Although only 15-hands high on average, the Kislevite Draught is one of the strongest horses of the Empire, and is one of the source bloodlines for the modern Ostermark Veldt destriers. It is mostly found in Ostland and the Western Oblast of Kislev where it is used for farming, milking, and meat.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "8",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 20
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!B9vFPM5Cul2oYXrG"
+}

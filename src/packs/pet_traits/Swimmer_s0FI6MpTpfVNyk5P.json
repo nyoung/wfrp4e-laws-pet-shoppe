@@ -1,0 +1,104 @@
+{
+  "_id": "s0FI6MpTpfVNyk5P",
+  "name": "Swimmer",
+  "type": "trait",
+  "img": "modules/wfrp4e-core/icons/traits/trait.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Start with <em>Swim</em> Skill +10</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": null
+    },
+    "rollable": {
+      "value": false,
+      "damage": false,
+      "skill": "",
+      "label": "Rollable",
+      "type": "Boolean",
+      "rollCharacteristic": "",
+      "bonusCharacteristic": "",
+      "dice": "",
+      "defaultDifficulty": "challenging",
+      "SL": true,
+      "attackType": "melee"
+    },
+    "specification": {
+      "value": "",
+      "type": "String",
+      "label": "Specification"
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [
+    {
+      "_id": "EGzz9qR6NhaAkppF",
+      "name": "Swimmer",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "type": "base",
+      "disabled": false,
+      "transfer": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff",
+      "flags": {
+        "wfrp4e": {
+          "hide": false
+        }
+      },
+      "system": {
+        "transferData": {
+          "type": "document",
+          "documentType": "Actor",
+          "equipTransfer": false
+        },
+        "scriptData": [
+          {
+            "label": "Swimmer",
+            "trigger": "dialog",
+            "script": "args.fields.modifier += 10;",
+            "options": {
+              "activateScript": "return args.skill?.name == \"Swim\"",
+              "hideScript": "return !args.skill?.name.includes(\"Swim\")",
+              "submissionScript": "",
+              "targeter": false
+            }
+          }
+        ],
+        "zone": {},
+        "sourceData": {},
+        "changes": []
+      },
+      "_key": "!items.effects!s0FI6MpTpfVNyk5P.EGzz9qR6NhaAkppF"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": "Compendium.wfrp4e-laws-pet-shoppe.pet_traits.s0FI6MpTpfVNyk5P",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!s0FI6MpTpfVNyk5P"
+}

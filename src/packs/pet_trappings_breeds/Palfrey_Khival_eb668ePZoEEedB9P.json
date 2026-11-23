@@ -1,0 +1,85 @@
+{
+  "_id": "eb668ePZoEEedB9P",
+  "name": "Palfrey (Khival)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/riding-horse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The Khival, from the County of Hohenkhiv in the north of the Veldt in Ostermark, is one of the most sought after horses in the Old World. Although they have a strong reputation for their smooth gait, speed and endurance, it's the extraordinary, almost metallic-gold sheen to their dark brown to dun coats that make them exceptional. Believed to be autochthonic, the Khival is certainly an ancient breed, and has recently gained much popularity with the wizards of the Colleges of Magic due to their unexpected tolerance to their kind. Most Khivals are 15 hands or taller.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "310",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "scarce"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 16
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!eb668ePZoEEedB9P"
+}

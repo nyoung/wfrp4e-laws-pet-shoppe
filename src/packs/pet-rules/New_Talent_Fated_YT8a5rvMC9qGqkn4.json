@@ -1,0 +1,40 @@
+{
+  "_id": "YT8a5rvMC9qGqkn4",
+  "name": "New Talent: Fated",
+  "pages": [
+    {
+      "_id": "YT8a5rvMC9qGqkn4",
+      "name": "New Talent: Fated",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div>\n<p>Here's a controversial Talent that could be added to tier 4 Celestial Wizards, Ranaldans, and similar. It costs 500 XP to buy, and I add it here because, well, cats.</p>\n<p>&nbsp;</p>\n</div>\n<h3>FATED</h3>\n<div>Max: 1</div>\n<p>You are extraordinarily lucky. Perhaps the Gods have blessed you, or maybe you can somehow see the crackling skeins of fate spun by the Great Weaver itself. Gain +1 Fate Point.</p>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!YT8a5rvMC9qGqkn4.YT8a5rvMC9qGqkn4"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!YT8a5rvMC9qGqkn4"
+}

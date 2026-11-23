@@ -1,0 +1,103 @@
+{
+  "_id": "gWzRxMGLYTqRt1te",
+  "name": "Trained Cat",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/career-03.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Cat"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Pet"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": "3"
+    },
+    "status": {
+      "tier": "",
+      "standing": null
+    },
+    "characteristics": [
+      "ws",
+      "i",
+      "ag",
+      "wp",
+      "t"
+    ],
+    "skills": [
+      "Athletics",
+      "Climb",
+      "Intuition",
+      "Melee (Tooth and Claw)",
+      "Outdoor Survival",
+      "Perception",
+      "Stealth",
+      "Track",
+      "Charm",
+      "Endurance",
+      "Entertain (Meowing)",
+      "Entertain (Purring)",
+      "Cool",
+      "Dodge",
+      "Perform (Nap)",
+      "Intimidate",
+      "Navigation",
+      "Perform (Obedience)",
+      "Trade (Hairball)"
+    ],
+    "talents": [
+      "Combat Reflexes",
+      "Jump Up",
+      "Nose for Trouble",
+      "Resistance (Chaos)"
+    ],
+    "trappings": [
+      ""
+    ],
+    "incomeSkill": [],
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!gWzRxMGLYTqRt1te"
+}

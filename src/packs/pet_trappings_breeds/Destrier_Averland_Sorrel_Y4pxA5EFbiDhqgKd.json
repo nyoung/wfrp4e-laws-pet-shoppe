@@ -1,0 +1,85 @@
+{
+  "_id": "Y4pxA5EFbiDhqgKd",
+  "name": "Destrier (Averland Sorrel)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/heavy-warhorse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The lumbering Averland Sorrel has been a mainstay of the southern armies of the Empire for over a thousand years. Although always chestnut, but ranging from dark liver to red roan, it may have white markings, but only about the muzzle or lower legs. In recent centuries, the huge horse, which is almost exclusively bred by the horse lords of southern Averland, has also been used to pull heavy artillery as it is also a natural draught animal. It is typically 17 hands or taller.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": null
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "240",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "scarce"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 20
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!Y4pxA5EFbiDhqgKd"
+}

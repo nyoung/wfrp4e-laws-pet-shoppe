@@ -1,0 +1,100 @@
+{
+  "_id": "ELKrkmEHD5TYtrXt",
+  "name": "Survival Sense",
+  "type": "trait",
+  "img": "modules/wfrp4e-core/icons/traits/trait.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The creature has an instinctual ability, to survive in the wild.&nbsp;Start with&nbsp;<em>Outdoor Survival</em>&nbsp;Skill +25.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "rollable": {
+      "value": false,
+      "damage": false,
+      "skill": "",
+      "label": "Rollable",
+      "type": "Boolean",
+      "rollCharacteristic": "",
+      "bonusCharacteristic": "",
+      "dice": "",
+      "defaultDifficulty": "challenging",
+      "SL": true,
+      "attackType": "melee"
+    },
+    "specification": {
+      "value": "",
+      "type": "String",
+      "label": "Specification"
+    }
+  },
+  "effects": [
+    {
+      "_id": "nu2ehFABzVT5MCvD",
+      "name": "Survival Sense",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "type": "base",
+      "disabled": false,
+      "transfer": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff",
+      "flags": {
+        "wfrp4e": {
+          "hide": false
+        }
+      },
+      "system": {
+        "transferData": {
+          "type": "document",
+          "documentType": "Actor",
+          "equipTransfer": false
+        },
+        "scriptData": [
+          {
+            "label": "Survival Sense",
+            "trigger": "dialog",
+            "script": "args.fields.modifier += 25;",
+            "options": {
+              "activateScript": "return args.skill?.name == \"Outdoor Survival\"",
+              "hideScript": "return !args.skill?.name.includes(\"Outdoor Survival\")",
+              "submissionScript": "",
+              "targeter": false
+            }
+          }
+        ],
+        "zone": {},
+        "sourceData": {},
+        "changes": []
+      },
+      "_key": "!items.effects!ELKrkmEHD5TYtrXt.nu2ehFABzVT5MCvD"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ELKrkmEHD5TYtrXt"
+}

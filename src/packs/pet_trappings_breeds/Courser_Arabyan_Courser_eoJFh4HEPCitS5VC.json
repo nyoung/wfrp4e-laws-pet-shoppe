@@ -1,0 +1,85 @@
+{
+  "_id": "eoJFh4HEPCitS5VC",
+  "name": "Courser (Arabyan Courser)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/light-warhorse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The Arabyan Courser is believed to have originated in Nehekharan over 4000 years ago, supposedly from stolen Elven stock. The expensive breed was imported to the Empire three centuries ago and has been carefully cultivated ever since. Most of the stud farms are found in the Reikland and Wissenland, but some also exist in Stirland and Averland. With its distinctive head shape, long croup, and high tail-carriage, an Arabyan is unmistakable to any lucky horse dealer that should find one misidentified at market. Spirited, strong, and known for their extraordinary endurance, most Arabyans stand between 14–15 hands high.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "700",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 18
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!eoJFh4HEPCitS5VC"
+}

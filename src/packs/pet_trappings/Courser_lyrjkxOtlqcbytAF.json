@@ -1,0 +1,85 @@
+{
+  "_id": "lyrjkxOtlqcbytAF",
+  "name": "Courser",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/light-warhorse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Coursers are the fastest and most popular of the three 'chargers', or war horses. These large animals are agile, strong, and bred for speed and resolve. They are normally only used for hard warfare, racing, or hunting, with other, more comfortable horses, such as palfreys or cheaper rounceys, used for general riding. Coursers are normally around 16-hands tall and are some of the most majestic horses of the Old World.</p>\n<p><strong>Commonly Owned By: </strong>Cavalryman, Noble, Knight, Soldier, Warrior Priest, Wizard</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "70",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 18
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!lyrjkxOtlqcbytAF"
+}

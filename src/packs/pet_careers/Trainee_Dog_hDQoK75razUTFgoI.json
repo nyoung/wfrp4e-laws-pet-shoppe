@@ -1,0 +1,90 @@
+{
+  "_id": "hDQoK75razUTFgoI",
+  "name": "Trainee Dog",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/career-01.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Dog"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Pet"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": "1"
+    },
+    "status": {
+      "tier": "",
+      "standing": null
+    },
+    "characteristics": [
+      "ws",
+      "i",
+      "wp"
+    ],
+    "skills": [
+      "Athletics",
+      "Charm",
+      "Dodge",
+      "Intimidate",
+      "Perception",
+      "Perform (Obedience)",
+      "Swim",
+      "Track"
+    ],
+    "talents": [
+      "Acute Sense (Smell)",
+      "Beneath Notice",
+      "Flee!",
+      "Night Vision"
+    ],
+    "trappings": [
+      ""
+    ],
+    "incomeSkill": [],
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!hDQoK75razUTFgoI"
+}

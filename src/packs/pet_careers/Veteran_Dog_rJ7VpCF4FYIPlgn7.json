@@ -1,0 +1,106 @@
+{
+  "_id": "rJ7VpCF4FYIPlgn7",
+  "name": "Veteran Dog",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/career-04.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Dog"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Pet"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": "4"
+    },
+    "status": {
+      "tier": "",
+      "standing": null
+    },
+    "characteristics": [
+      "ws",
+      "i",
+      "wp",
+      "s",
+      "t",
+      "ag"
+    ],
+    "skills": [
+      "Athletics",
+      "Charm",
+      "Dodge",
+      "Intimidate",
+      "Perception",
+      "Perform (Obedience)",
+      "Swim",
+      "Track",
+      "Cool",
+      "Intuition",
+      "Melee (Tooth & Claw)",
+      "Navigation",
+      "Outdoor Survival",
+      "Perform (Tricks)",
+      "Endurance",
+      "Entertain (Barking)",
+      "Stealth",
+      "Perform (Herd)",
+      "Perform (Point)",
+      "Charm Animal",
+      "Climb"
+    ],
+    "talents": [
+      "Disarm",
+      "Frightening",
+      "Implacable",
+      "Iron Will"
+    ],
+    "trappings": [
+      ""
+    ],
+    "incomeSkill": [],
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!rJ7VpCF4FYIPlgn7"
+}

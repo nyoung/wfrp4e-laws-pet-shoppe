@@ -1,123 +1,65 @@
 {
-  "name": "wfrp4e-laws-pet-shoppe",
+  "id": "wfrp4e-laws-pet-shoppe",
   "title": "WFRP4e – Law's Pet Shoppe",
-  "description": "Pet Henchmen content from Lawhammer Blog for Warhammer Fantasy Roleplay 4e",
-  "version": "1.1.0",
-  "author": "Simulacrum",
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion" : "9",
-  "systems": ["wfrp4e"],
-  "packs": [
-    {
-    "name": "pet_bestiary",
-    "label": "Bestiary (Law's Breeds)",
-    "path": "packs/pet-bestiary.db",
-    "entity": "Actor",
-    "module": "wfrp4e-laws-pet-shoppe",
-    "system": "wfrp4e",
-    "tag": "actor"
-    },
-    {
-      "name": "pet_bestiary_breeds",
-      "label": "Bestiary (Law's Pure Breeds)",
-      "path": "packs/pet-bestiary-pure.db",
-      "entity": "Actor",
-      "module": "wfrp4e-laws-pet-shoppe",
-      "system": "wfrp4e",
-      "tag": "actor"
-      },
-    {
-      "name": "pet_bestiary_beasts",
-      "label": "Old World Beasts (Law's Pet Shoppe)",
-      "path": "packs/pet-bestiary-beasts.db",
-      "entity": "Actor",
-      "module": "wfrp4e-laws-pet-shoppe",
-      "system": "wfrp4e",
-      "tag": "actor"
-      },
-      {
-        "name": "pet_bestiary_oceanic",
-        "label": "Oceanic Beasts (Law's Pet Shoppe)",
-        "path": "packs/pet-bestiary-oceanic.db",
-        "entity": "Actor",
-        "module": "wfrp4e-laws-pet-shoppe",
-        "system": "wfrp4e",
-        "tag": "actor"
-        },
-      {
-      "name": "pet_careers",
-      "label": "Careers (Law's Pet Shoppe)",
-      "path": "packs/pet-careers.db",
-      "entity": "Item",
-      "module": "wfrp4e-laws-pet-shoppe",
-      "system": "wfrp4e",
-	    "tag": "careers"
-    },
-    {
-    "name": "pet_talents",
-    "label": "Talents (Law's Pet Shoppe)",
-    "path": "packs/pet-talents.db",
-    "entity": "Item",
-    "module": "wfrp4e-laws-pet-shoppe",
-    "system": "wfrp4e",
-    "tag": "talents"
-  },
-    {
-    "name": "pet_traits",
-    "label": "Traits (Law's Pet Shoppe)",
-    "path": "packs/pet-traits.db",
-    "entity": "Item",
-    "module": "wfrp4e-laws-pet-shoppe",
-    "system": "wfrp4e",
-    "tag": "traits"
-  },
-  {
-  "name": "pet_trappings",
-  "label": "Trappings (Law's Breeds)",
-  "path": "packs/pet-trappings.db",
-  "entity": "Item",
-  "module": "wfrp4e-laws-pet-shoppe",
-  "system": "wfrp4e",
-  "tag": "trappings"
-},
-{
-"name": "pet_trappings_breeds",
-"label": "Trappings (Law's Pure Breeds)",
-"path": "packs/pet-trappings-pure.db",
-"entity": "Item",
-"module": "wfrp4e-laws-pet-shoppe",
-"system": "wfrp4e",
-"tag": "trappings"
-},
-{
-    "name": "pet-rules",
-    "label": "Rules (Law's Pet Shoppe)",
-    "path": "packs/pet-rules.db",
-    "entity": "JournalEntry",
-    "module": "wfrp4e-laws-pet-shoppe",
-    "system": "wfrp4e",
-    "tag": "Journal"
-  },
-  {
-      "name": "pet-career-description",
-      "label": "Career Descriptions (Law's Pet Shoppe)",
-      "path": "packs/pet-career-description.db",
-      "entity": "JournalEntry",
-      "module": "wfrp4e-laws-pet-shoppe",
-      "system": "wfrp4e",
-      "tag": "Journal"
-    },
-    {
-        "name": "pet-tables",
-        "label": "Tables (Law's Pet Shoppe)",
-        "path": "packs/pet-tables.db",
-        "entity": "RollTable",
-        "module": "wfrp4e-laws-pet-shoppe",
-        "system": "wfrp4e",
-        "tag": "tables"
-      }
+  "description": "Pet Henchmen content from Lawhammer Blog for Warhammer Fantasy Roleplay 4e. Updated for Foundry VTT v14 and WFRP4e 10.x.",
+  "version": "2.0.0",
+  "authors": [
+    { "name": "Simulacrum" },
+    { "name": "nyoung (Foundry v14 port)" }
   ],
-  "url": "https://github.com/simulacrum-1/wfrp4e-laws-pet-shoppe",
-  "manifest": "https://github.com/simulacrum-1/wfrp4e-laws-pet-shoppe/releases/download/1.1.1/module.json",
-  "download": "https://github.com/simulacrum-1/wfrp4e-laws-pet-shoppe/releases/download/1.1.1/wfrp4e-laws-pet-shoppe.zip"
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "compatibility": { "minimum": "10.0.0" }
+      }
+    ],
+    "requires": [
+      {
+        "id": "wfrp4e-core",
+        "type": "module",
+        "reason": "Trait, skill and talent links, icons and rules references point into the Core Rulebook module."
+      }
+    ],
+    "recommends": [
+      {
+        "id": "wfrp4e-eis",
+        "type": "module",
+        "reason": "Horse, pony, donkey and mule portraits/tokens use Enemy in Shadows artwork."
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "Law's Pet Shoppe",
+      "sorting": "m",
+      "packs": [
+        "pet_bestiary", "pet_bestiary_breeds", "pet_bestiary_beasts", "pet_bestiary_oceanic",
+        "pet_careers", "pet_talents", "pet_traits", "pet_trappings", "pet_trappings_breeds",
+        "pet-rules", "pet-career-description", "pet-tables"
+      ]
+    }
+  ],
+  "packs": [
+    { "name": "pet_bestiary", "label": "Bestiary (Law's Breeds)", "path": "packs/pet_bestiary", "type": "Actor", "system": "wfrp4e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "pet_bestiary_breeds", "label": "Bestiary (Law's Pure Breeds)", "path": "packs/pet_bestiary_breeds", "type": "Actor", "system": "wfrp4e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "pet_bestiary_beasts", "label": "Old World Beasts (Law's Pet Shoppe)", "path": "packs/pet_bestiary_beasts", "type": "Actor", "system": "wfrp4e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "pet_bestiary_oceanic", "label": "Oceanic Beasts (Law's Pet Shoppe)", "path": "packs/pet_bestiary_oceanic", "type": "Actor", "system": "wfrp4e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "pet_careers", "label": "Careers (Law's Pet Shoppe)", "path": "packs/pet_careers", "type": "Item", "system": "wfrp4e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "pet_talents", "label": "Talents (Law's Pet Shoppe)", "path": "packs/pet_talents", "type": "Item", "system": "wfrp4e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "pet_traits", "label": "Traits (Law's Pet Shoppe)", "path": "packs/pet_traits", "type": "Item", "system": "wfrp4e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "pet_trappings", "label": "Trappings (Law's Breeds)", "path": "packs/pet_trappings", "type": "Item", "system": "wfrp4e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "pet_trappings_breeds", "label": "Trappings (Law's Pure Breeds)", "path": "packs/pet_trappings_breeds", "type": "Item", "system": "wfrp4e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "pet-rules", "label": "Rules (Law's Pet Shoppe)", "path": "packs/pet-rules", "type": "JournalEntry", "system": "wfrp4e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "pet-career-description", "label": "Career Descriptions (Law's Pet Shoppe)", "path": "packs/pet-career-description", "type": "JournalEntry", "system": "wfrp4e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "pet-tables", "label": "Tables (Law's Pet Shoppe)", "path": "packs/pet-tables", "type": "RollTable", "system": "wfrp4e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
+  ],
+  "url": "https://github.com/nyoung/wfrp4e-laws-pet-shoppe",
+  "manifest": "https://github.com/nyoung/wfrp4e-laws-pet-shoppe/releases/latest/download/module.json",
+  "download": "https://github.com/nyoung/wfrp4e-laws-pet-shoppe/releases/download/2.0.0/wfrp4e-laws-pet-shoppe.zip"
 }

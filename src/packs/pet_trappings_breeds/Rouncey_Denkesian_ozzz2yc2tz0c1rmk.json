@@ -1,0 +1,85 @@
+{
+  "_id": "ozzz2yc2tz0c1rmk",
+  "name": "Rouncey (Denkesian)",
+  "type": "container",
+  "img": "modules/wfrp4e-laws-pet-shoppe/assets/icons/rouncey.webp",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Hailing from the Barony of Denkesland, Denkesians are a Hochlander breed with an unusual black-on-dun spotted coat, coupled with long, white manes and feathered tails. Used for almost all purposes in Hochland, eastern Middenland, and pasts of southern Ostland, their distinctive appearance makes them popular in travelling fairs and circuses, especially because of their general utility on the road. Relatively large horses with a friendly demeanour, most Denkesians are just under 16 hands tall.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "15",
+      "ss": "10",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 20
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ozzz2yc2tz0c1rmk"
+}

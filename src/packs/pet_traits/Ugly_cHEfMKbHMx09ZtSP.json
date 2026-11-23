@@ -1,0 +1,56 @@
+{
+  "_id": "cHEfMKbHMx09ZtSP",
+  "name": "Ugly",
+  "type": "trait",
+  "img": "modules/wfrp4e-core/icons/traits/trait.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>This repurposes the Item&nbsp;<em>Ugly</em>&nbsp;Flaw for animals. Taking the&nbsp;<em>Ugly</em>&nbsp;Trait for your pet shows it's particularly ill-favoured in appearance, which may come with penalties in some situations.</p>\n<p>Ugly animals attract negative attention, and related Fellowship Tests might even suffer a &ndash;10 penalty.</p>\n<p>Each&nbsp;<em>Ugly</em>&nbsp;Trait the animal has,&nbsp;halves the listed price and improves @UUID[Compendium.wfrp4e-core.journals.JournalEntry.sLomXnc8R8518cWN.JournalEntryPage.mSfQGLILlnIVr27i]{Availability} by one step.&nbsp;</p>\n<p>Note: Exotic items do not have their Availability modified by being Flawed &mdash; they are always difficult to find, even shoddy examples.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Many vendors sell flawed items, but&nbsp;pretend they are anything but. A successful Test with any&nbsp;appropriate skill &mdash; such as Evaluate, or Melee for weapons, or&nbsp;Trade for tools &mdash; will spot such underhanded activities.</p>\n<p>NOTE: Normally, both <em>Ugly</em>&nbsp;and&nbsp;<em>Fine</em> can't be applied to a single animal, but I'm sure there are examples of ugly versions of purebred animals, so I'll not make that a hard rule, and leave it to individual circumstances to dictate.</p>\n<p>&nbsp;</p>"
+    },
+    "rollable": {
+      "value": false,
+      "damage": false,
+      "skill": "",
+      "label": "Rollable",
+      "type": "Boolean",
+      "rollCharacteristic": "",
+      "bonusCharacteristic": "",
+      "dice": "",
+      "defaultDifficulty": "challenging",
+      "SL": true,
+      "attackType": "melee"
+    },
+    "specification": {
+      "value": "",
+      "type": "String",
+      "label": "Specification"
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": "Compendium.wfrp4e-laws-pet-shoppe.pet_traits.cHEfMKbHMx09ZtSP",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!cHEfMKbHMx09ZtSP"
+}

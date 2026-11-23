@@ -1,0 +1,298 @@
+{
+  "_id": "p0YN4nhJyiaESdDo",
+  "name": "Random Traits: Horse",
+  "img": "systems/wfrp4e/ui/buttons/d10.webp",
+  "description": "",
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "JzotdLufok2vZoqs",
+      "weight": 1,
+      "range": [
+        1,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Amble",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-laws-pet-shoppe.pet_traits.Item.mmUpRmsHqbWqmBl7",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.JzotdLufok2vZoqs"
+    },
+    {
+      "_id": "UTPHBHlgY7vGEYOR",
+      "weight": 1,
+      "range": [
+        11,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Belligerent",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.GbDyBCu8ZjDp6dkj",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.UTPHBHlgY7vGEYOR"
+    },
+    {
+      "_id": "rxCHQObj0LuWr0Nf",
+      "weight": 1,
+      "range": [
+        16,
+        25
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Big",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.a8MC97PLzl10WocT",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.rxCHQObj0LuWr0Nf"
+    },
+    {
+      "_id": "S4GdFbnJGWRefF40",
+      "weight": 1,
+      "range": [
+        26,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Bite",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.S4GdFbnJGWRefF40"
+    },
+    {
+      "_id": "7AOk8dmJeEXrXrWq",
+      "weight": 1,
+      "range": [
+        31,
+        35
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Fast",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.9MjH4xyVrd3Inzak",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.7AOk8dmJeEXrXrWq"
+    },
+    {
+      "_id": "SlixqBtwsGepfgvY",
+      "weight": 1,
+      "range": [
+        36,
+        45
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Hardy",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.HbrwGhUl0ZXz4kLA",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.SlixqBtwsGepfgvY"
+    },
+    {
+      "_id": "FruWr1GPJGHvXniF",
+      "weight": 1,
+      "range": [
+        46,
+        55
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Night Vision",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.FmHDbCOy3pH8yKhm",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.FruWr1GPJGHvXniF"
+    },
+    {
+      "_id": "QX829A2leSnQfK8f",
+      "weight": 1,
+      "range": [
+        56,
+        70
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Rear",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.VFV2dmrfuVJ3RJnD",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.QX829A2leSnQfK8f"
+    },
+    {
+      "_id": "itRPl6Of5vw3VTKm",
+      "weight": 1,
+      "range": [
+        71,
+        75
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Stealthy",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.OzwDT6kzoLYeeR2d",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.itRPl6Of5vw3VTKm"
+    },
+    {
+      "_id": "Dm1XqoDcYKwNEPL8",
+      "weight": 1,
+      "range": [
+        76,
+        80
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Sure-Feet",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-laws-pet-shoppe.pet_traits.Item.nVwhRohiJRJThYnj",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.Dm1XqoDcYKwNEPL8"
+    },
+    {
+      "_id": "zqN0VvWzewvNfLsu",
+      "weight": 1,
+      "range": [
+        81,
+        90
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Tough",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-core.items.Item.k9539MBTFplxsysT",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.zqN0VvWzewvNfLsu"
+    },
+    {
+      "_id": "6VuY0TJlQXN2GtN0",
+      "weight": 1,
+      "range": [
+        91,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "name": "Trained*",
+      "description": "",
+      "type": "document",
+      "documentUuid": "Compendium.wfrp4e-laws-pet-shoppe.pet_traits.Item.I7L7UACo7qOuni3l",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.6VuY0TJlQXN2GtN0"
+    },
+    {
+      "_id": "tDpxQvwZRFM8GsZE",
+      "weight": 1,
+      "range": [
+        1,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d10-grey.svg",
+      "name": "Amble +1",
+      "description": "Amble +1",
+      "type": "text",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.tDpxQvwZRFM8GsZE"
+    },
+    {
+      "_id": "Wwf7wtBaBaSLRtyc",
+      "weight": 1,
+      "range": [
+        26,
+        30
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d10-grey.svg",
+      "name": "Bite SB+2",
+      "description": "Bite SB+2",
+      "type": "text",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.Wwf7wtBaBaSLRtyc"
+    },
+    {
+      "_id": "Md0hvl2eUkUGrCiM",
+      "weight": 1,
+      "range": [
+        36,
+        45
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d10-grey.svg",
+      "name": "Hardy +1",
+      "description": "Hardy +1",
+      "type": "text",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.Md0hvl2eUkUGrCiM"
+    },
+    {
+      "_id": "hGbiZQ8eG4J1vgyt",
+      "weight": 1,
+      "range": [
+        46,
+        55
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d10-grey.svg",
+      "name": "Night Vision +1",
+      "description": "Night Vision +1",
+      "type": "text",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.hGbiZQ8eG4J1vgyt"
+    },
+    {
+      "_id": "WFuzU0QKdE1ECM74",
+      "weight": 1,
+      "range": [
+        91,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/svg/d10-grey.svg",
+      "name": "Trained* (Any)",
+      "description": "Trained* (Any)",
+      "type": "text",
+      "_key": "!tables.results!p0YN4nhJyiaESdDo.WFuzU0QKdE1ECM74"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "wfrp4e": {
+      "key": "horse-traits",
+      "column": ""
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!tables!p0YN4nhJyiaESdDo"
+}

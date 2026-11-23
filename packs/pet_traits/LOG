@@ -1,0 +1,5 @@
+2026/11/23-15:30:35.912 57c4 Delete type=3 #1
+2026/11/23-15:30:35.924 5c98 Level-0 table #5: started
+2026/11/23-15:30:35.929 5c98 Level-0 table #5: 13599 bytes OK
+2026/11/23-15:30:35.933 5c98 Delete type=0 #3
+2026/11/23-15:30:35.933 5c98 Manual compaction at level-0 from '!items!9AfMDYr2cNhDPX13' @ 72057594037927935 : 1 .. '!items.effects!s0FI6MpTpfVNyk5P.EGzz9qR6NhaAkppF' @ 0 : 0; will stop at (end)

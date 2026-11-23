@@ -1,0 +1,75 @@
+{
+  "_id": "rIM9xxYpeKWSxPG3",
+  "name": "Cat (Nordland Wildcat)",
+  "type": "trapping",
+  "img": "modules/wfrp4e-laws-pet-shoppe/assets/icons/cat.webp",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Slightly larger and significantly more robust than standard domesticated cats, the Nordland Wildcat is a common sight in the forests of the Northern Empire, and was first tamed over two thousand years ago. Frequently used as housecats in Nordland, the breed is known for its bad temper, dark stripes, and bushy tail. According to the folklore of the north, the breed is famous for keeping ghosts at bay. Because of this, they are a common pet for northern Morrians, and, should hauntings be rumoured, commonfolk often seek out Wildcats to protect themselves.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "0",
+      "ss": "7",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "trappingType": {
+      "type": "String",
+      "label": "Trapping Type",
+      "value": "misc"
+    },
+    "worn": false,
+    "spellIngredient": {
+      "type": "String",
+      "value": ""
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!rIM9xxYpeKWSxPG3"
+}

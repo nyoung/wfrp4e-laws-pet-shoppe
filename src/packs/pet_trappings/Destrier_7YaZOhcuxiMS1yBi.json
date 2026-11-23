@@ -1,0 +1,85 @@
+{
+  "_id": "7YaZOhcuxiMS1yBi",
+  "name": "Destrier",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/heavy-warhorse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Destriers, sometimes called 'great horses', are the largest and strongest of the three 'chargers', or war horses. They are highly prized by the Empire's Knightly Orders and command enormous prices at market. These towering animals are most commonly seen jousting or on the battlefield. Few use these horses for everyday riding; instead, most ride comfortable palfreys or inexpensive rounceys, afraid to damage their prized stock for no reason. Destriers are usually around 17 hands tall, although some rare breeds far exceed this.</p>\n<p><strong>Commonly Owned By:</strong> Knight, Soldier, Warrior Priest</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": null
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "230",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "scarce"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 20
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!7YaZOhcuxiMS1yBi"
+}

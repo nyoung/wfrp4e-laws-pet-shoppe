@@ -1,0 +1,85 @@
+{
+  "_id": "Vd6c5nZcLHJfPmTn",
+  "name": "Rouncey",
+  "type": "container",
+  "img": "modules/wfrp4e-laws-pet-shoppe/assets/icons/rouncey.webp",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>Rounceys are all-purpose horses, suitable for riding, draught work, carrying loads, and more. They are also trainable for war, making them the smallest of the three 'chargers', or war horses. Because of their relatively smooth gaits, Rounceys are the preferred mount for most ranged cavalry such as horse archers or pistolliers. Given their all-round utility and relative cheapness, Rounceys are the most commonly encountered horses in the Old World, and are usually 14&ndash;15 hands tall.</p>\n<p><strong>Commonly Owned By:</strong> Advisor, Bailiff, Bounty Hunter, Cavalryman, Coachman, Messenger, Outlaw, Protagonist, Road Warden, Scout, Soldier, Townsman, Warden, Watchmen, Witch Hunter</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "15",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 20
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!Vd6c5nZcLHJfPmTn"
+}

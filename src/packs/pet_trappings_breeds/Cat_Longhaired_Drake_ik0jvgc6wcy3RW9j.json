@@ -1,0 +1,75 @@
+{
+  "_id": "ik0jvgc6wcy3RW9j",
+  "name": "Cat (Longhaired Drake)",
+  "type": "trapping",
+  "img": "modules/wfrp4e-laws-pet-shoppe/assets/icons/cat.webp",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The Longhaired Drake is the largest breed of domesticated cat outside the occasional, and very rare, big cat. Larger than most dogs, the breed is usually found wild in western Drakwald Forest where it hunts game of all sizes. A common sight in the coaching inns and fortified hostels of Middenland, the Drake is renowned for its ratting skills, and is even used by some Rat Catchers of Middenheim and Delberz in preference to dogs. Sporting a thick, silky coat, always striped ginger and liver-red, the breed is famous for its bushy tail, sour disposition, and its startlingly golden eyes that appear quite lizard-like. Local myths, most spanning back to the lost Grand Province of Drakwald, claim the Drake has a close association with Dragons, but such tales seem fanciful at best.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "4",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "trappingType": {
+      "type": "String",
+      "label": "Trapping Type",
+      "value": "misc"
+    },
+    "worn": false,
+    "spellIngredient": {
+      "type": "String",
+      "value": ""
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ik0jvgc6wcy3RW9j"
+}

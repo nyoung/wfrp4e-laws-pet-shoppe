@@ -1,0 +1,85 @@
+{
+  "_id": "4hTp9NBqAEB18xU3",
+  "name": "Dray (Old Mootland Shire)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/heavy-draught-horse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The enormous Old Mootland Shire, often called the Imperial Great Horse outside the Empire, is a white-socked giant with a sleek black-to-dark brown coat. Impressively strong, the breed was imported to the Reik Basin alongside Halfling settlers and their Ogre bodyguards almost two millennia ago, and is reputedly the foundation stock for most of Averland's courser and destrier breeds. Prolific across Mootland, Stirland, and Averland, it is used heavily for farm, forestry, and driving work, and to move goods at the many river docks down the Aver and Upper Reik rivers. Rarely standing at less than 18 hands in height, some horse experts believe the breed may originally come from Elven stocks left behind when the High Elves fled the Old World.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "5",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 20
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!4hTp9NBqAEB18xU3"
+}

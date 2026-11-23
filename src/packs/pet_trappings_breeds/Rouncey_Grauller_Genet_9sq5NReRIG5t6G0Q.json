@@ -1,0 +1,85 @@
+{
+  "_id": "9sq5NReRIG5t6G0Q",
+  "name": "Rouncey (Grauller Genet)",
+  "type": "container",
+  "img": "modules/wfrp4e-laws-pet-shoppe/assets/icons/rouncey.webp",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The Grauller Genet is an old breed believed to be indigenous to the Grau valley in the Southern Vorbergland, unchanged since the Time of Sigmar. Like most rounceys, the Grauller is versatile, as suitable for pulling a plough as it is for riding to the local temple on Festag or piling high with goods for market, but has relatively poor eyesight. Distinctive horses with long heads and blue roan coats, they are most commonly found across Reikland and down into Wissenland, and usually grow to around 14-hands high.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "12",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 20
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!9sq5NReRIG5t6G0Q"
+}

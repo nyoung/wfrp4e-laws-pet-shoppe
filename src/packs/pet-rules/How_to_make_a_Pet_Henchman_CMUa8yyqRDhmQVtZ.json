@@ -1,0 +1,40 @@
+{
+  "_id": "CMUa8yyqRDhmQVtZ",
+  "name": "How to make a Pet Henchman",
+  "pages": [
+    {
+      "_id": "CMUa8yyqRDhmQVtZ",
+      "name": "How to make a Pet Henchman",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>One day I hope a Henchmen generator like /Char for characters will automate this but unfortaunately I'm not a coder.</p>\n<p>&nbsp;</p>\n<p>&bull; Pets are 'Henchmen'.</p>\n<p>&bull; Henchmen have full Character Sheets and are given to a Player to play alongside their PC.</p>\n<p>&bull; A Player's Henchmen earn half the XP of their PC.</p>\n<p>&bull; This XP is spent as normal.</p>\n<p>&nbsp;</p>\n<p>As per WFRP Bestiary p. 318&nbsp;<strong>Random Creatures and Custom PC species</strong></p>\n<p>To create Pets out of traditionally NPC species such as cats, dogs and horses.</p>\n<ol>\n<li>Use random Characteristics</li>\n<li>Add an appropriate career</li>\n</ol>\n<p>&nbsp;</p>\n<p><strong>Use a full Character sheet</strong></p>\n<p>Fill out the details name, species, gender etc.</p>\n<p>Take a Breed or Pure Breed from the Bestiaries included in the Compendiums with this module.</p>\n<ol>\n<li>In the Notes Tab copy it's Creature Traits from the Notes section to the full character sheet.</li>\n<li>If in the Biography it mentions Random Traits roll them and drag those onto the full character sheet too, rerolling duplicates if necessary.<br />Either copy the creature sheet into the world and click the link to roll in the chat log.<br />or type /Table cat-traits or /Table dog-traits or /Table horse-traits from the chat log.<br /><br /></li>\n</ol>\n<p><strong>Use random Characteristics</strong></p>\n<p>Copy the Characteristics from the Creature sheet to the character sheet. Making changes as below to randomise them.</p>\n<p>To randomly create Characteristics, subtract &ndash;10, then add 2d10. So, a Characteristic of 30 translates to 2d10+20.</p>\n<p>If a Characteristic starts at 5, roll just 1d10 to randomise it.</p>\n<p>0 stays at 0.</p>\n<p>&nbsp;</p>\n<p><strong>Add an appropriate career</strong></p>\n<p>Open the appropriate cat dog or horse Career Journal from the Compendium and add Career 1 to the full character sheet.</p>\n<p>&nbsp;</p>\n<p><strong>XP is accumulated when accompanying the PC</strong></p>\n<p>Which equals half the XP of their PC. Spend as usual.</p>\n<p>I would assume characters starting with an animal. Their pet would begin with 1/2 the PCs initial XP.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!CMUa8yyqRDhmQVtZ.CMUa8yyqRDhmQVtZ"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!CMUa8yyqRDhmQVtZ"
+}

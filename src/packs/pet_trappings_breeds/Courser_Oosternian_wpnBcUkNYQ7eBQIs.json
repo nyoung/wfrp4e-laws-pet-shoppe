@@ -1,0 +1,85 @@
+{
+  "_id": "wpnBcUkNYQ7eBQIs",
+  "name": "Courser (Oosternian)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/light-warhorse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The energetic Oosternian, originally from the rolling Atter-Oostenmarchen duchy to the west of the Midden Moors, is a majestic horse prized for its ice-white coat and royal demeanour. The breed has a powerful confirmation with sloping shoulders, muscular body and a thick, long, wavy tail and mane. Originally only used as a warhorse, the last century has seen rich Marienburger merchants use the animal for recreational purposes. This mostly includes harness-work, and it has become almost commonplace to see the horses pulling high-wheeled carriages called&nbsp;sjees around in the Wastelander capital. Well-proportioned, Oosternians stand just over 15 hands on average, and are one of the most expensive horses in the Empire.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "320",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 18
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!wpnBcUkNYQ7eBQIs"
+}

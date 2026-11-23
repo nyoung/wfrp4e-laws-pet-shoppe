@@ -1,0 +1,85 @@
+{
+  "_id": "0QBE8AfwfscaAhtH",
+  "name": "Palfrey (Vilvizan)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/riding-horse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The Ostermarker Vilvizan is one of the most famous breeds in the Empire, having been continuously bred for over two-thousand years. Originally hailing from the County of Vilv in the Bleak Moors where the Vilviza Stud Farm has reputedly operated for 2143 years, these gray horses are known for their extraordinarily smooth gait resulting from their long legs, convex profiles, and their broad rumps. Vilvizans are stubborn animals that mature very slowly, but, if well trained, can continue to work deep into their 30s. Most horses of this breed are between 14–15 hands in height.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "170",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "scarce"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 16
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!0QBE8AfwfscaAhtH"
+}

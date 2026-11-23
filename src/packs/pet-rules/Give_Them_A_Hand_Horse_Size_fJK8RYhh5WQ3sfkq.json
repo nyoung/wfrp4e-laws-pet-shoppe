@@ -1,0 +1,40 @@
+{
+  "_id": "fJK8RYhh5WQ3sfkq",
+  "name": "Give Them A Hand (Horse Size)",
+  "pages": [
+    {
+      "_id": "fJK8RYhh5WQ3sfkq",
+      "name": "Give Them A Hand (Horse Size)",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>A &lsquo;hand&rsquo; is a term used to measure horse height. When measuring the height of a horse, you typically measure from the ground to the &lsquo;withers&rsquo;, the ridge between the horse&rsquo;s shoulder blades.<br /><br /></p>\n<div>1 hand = 4 inches = 10cm.</div>\n<p><br />So a horse of 15 hands is 60 inches or 150cms tall at the withers.<br /><br />For you metric folk, there is a little rounding deployed here as 15 hands actually equals 152.4cm. But this tiny difference is easy to ignore to keep the numbers easy to remember.</p>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!fJK8RYhh5WQ3sfkq.fJK8RYhh5WQ3sfkq"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!fJK8RYhh5WQ3sfkq"
+}

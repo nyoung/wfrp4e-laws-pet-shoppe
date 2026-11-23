@@ -1,0 +1,85 @@
+{
+  "_id": "rTrdcrhL4ZucEDv4",
+  "name": "Dray (Bergburger)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/heavy-draught-horse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>An autochthonic horse breed from north-western Hochland, the spirited Bergburger has been used for agriculture and draught duty since the time of the Cherusen tribe almost three thousand years ago. A long-legged, well-proportioned horse with chestnut-to-dark brown colouring and a dark mane, the animal usually stands at some 18 hands. The cool-headed breed has recently been crossed with Ostermarker Veldt destriers in an attempt to breed more robust warhorses, but with little success. (This is the equivalent of the 'Heavy Draught Horse' from the&nbsp;<strong>Enemy in Shadows Companion</strong>, p. 23.)</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "8",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 20
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!rTrdcrhL4ZucEDv4"
+}

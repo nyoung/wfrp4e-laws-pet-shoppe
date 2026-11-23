@@ -1,0 +1,85 @@
+{
+  "_id": "3W32WJK9SFXHWmJS",
+  "name": "Rouncey (Strigany Cob)",
+  "type": "container",
+  "img": "modules/wfrp4e-laws-pet-shoppe/assets/icons/rouncey.webp",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The usually piebald Strigany Cob (Cob for short) has feathered heels and a long mane and tail. The traditional horse of travelling fairs, the Cob is famous for pulling caravans and Strigany&nbsp;vardos. It is often mistaken for a dray because of its heavy frame and obvious strength, but the horse is considerably more versatile. Known for its gentle nature and hard-working spirit, the breed is capable of almost any duty, which it usually fulfils with no complaint. Most Cobs rarely grow taller than 15 hands.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "22",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 20
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!3W32WJK9SFXHWmJS"
+}

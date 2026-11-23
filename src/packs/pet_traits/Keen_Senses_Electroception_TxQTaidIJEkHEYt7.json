@@ -1,0 +1,100 @@
+{
+  "_id": "TxQTaidIJEkHEYt7",
+  "name": "Keen Senses (Electroception)",
+  "type": "trait",
+  "img": "modules/wfrp4e-core/icons/traits/trait.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>One of the creatures primary five senses is highly developed, or possesses a different sense allowing them to spot what others miss. This normally increases its breadth, range or detail. They may take Perception Tests to detect things that are normally imperceptible with the associated sense, as dictated by the GM and may add SL equal to their Initiative Bonus to all Perception (sense) Tests.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "rollable": {
+      "value": false,
+      "damage": false,
+      "skill": "",
+      "label": "Rollable",
+      "type": "Boolean",
+      "rollCharacteristic": "",
+      "bonusCharacteristic": "",
+      "dice": "",
+      "defaultDifficulty": "challenging",
+      "SL": true,
+      "attackType": "melee"
+    },
+    "specification": {
+      "value": "",
+      "type": "String",
+      "label": "Specification"
+    }
+  },
+  "effects": [
+    {
+      "_id": "9MzNNsfMv1p6UQI3",
+      "name": "Keen Senses (Electroception)",
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "type": "base",
+      "disabled": false,
+      "transfer": true,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "statuses": [],
+      "tint": "#ffffff",
+      "flags": {
+        "wfrp4e": {
+          "hide": false
+        }
+      },
+      "system": {
+        "transferData": {
+          "type": "document",
+          "documentType": "Actor",
+          "equipTransfer": false
+        },
+        "scriptData": [
+          {
+            "label": "Keen Senses (Electroception)",
+            "trigger": "dialog",
+            "script": "let sl = this.actor.characteristics.i.bonus\n   args.fields.slBonus += sl;",
+            "options": {
+              "activateScript": "return !!args.skill?.name.includes(\"Perception (Electroception)\")",
+              "hideScript": "return !args.skill?.name.includes(\"Perception\")",
+              "submissionScript": "",
+              "targeter": false
+            }
+          }
+        ],
+        "zone": {},
+        "sourceData": {},
+        "changes": []
+      },
+      "_key": "!items.effects!TxQTaidIJEkHEYt7.9MzNNsfMv1p6UQI3"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!TxQTaidIJEkHEYt7"
+}

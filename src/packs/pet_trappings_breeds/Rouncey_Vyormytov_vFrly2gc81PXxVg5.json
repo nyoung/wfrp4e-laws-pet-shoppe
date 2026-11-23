@@ -1,0 +1,85 @@
+{
+  "_id": "vFrly2gc81PXxVg5",
+  "name": "Rouncey (Vyormytov)",
+  "type": "container",
+  "img": "modules/wfrp4e-laws-pet-shoppe/assets/icons/rouncey.webp",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The dark-hided Vyormytov was originally bred in the village of Vormyto in the Northern March of Ostland to not only be useful for everyday use, but also have the temperament for war. It has a rectangular build with long sloping shoulders, good hindquarters, and strong legs, and is topped with a finely chiselled head that narrows at the muzzle. Particularly athletic and trainable, the breed is the most common warhorse of the Ostland cavalry and is known for its endurance and calm nature. Most Vyormytovs are around 15 hands tall.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "16",
+      "ss": "8",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "common"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 20
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!vFrly2gc81PXxVg5"
+}

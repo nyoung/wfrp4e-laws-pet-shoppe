@@ -1,0 +1,56 @@
+{
+  "_id": "I7L7UACo7qOuni3l",
+  "name": "Trained*",
+  "type": "trait",
+  "img": "modules/wfrp4e-core/icons/traits/trait.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>This trait represents animals that have been trained through the Animal Training Skill. The skills the animal knows is marked in the brackets. Feel free to create your own trained skills.</p>\n<p><strong>Broken</strong>: The animal has been domesticated. Now tame, it gains +[[/r 2d10]] Fel, even if it has the&nbsp;<em>Bestial</em>&nbsp;trait. Further, it can now learn more&nbsp;<em>Trained</em>&nbsp;traits (see below).</p>\n<p><strong>Calm:</strong> The animal can attempt a&nbsp;<strong>Challenging (+0) Cool</strong>&nbsp;Test to ignore the effects of the&nbsp;<em>Skittish</em>&nbsp;Creature Trait. It gains a bonus of +10 to this Test for each point it has in Calm. It can have a maximum of&nbsp;<strong>WPB</strong> rating in this trait.</p>\n<p><strong>Drive</strong>: The animal is trained to pull a coach, cart, plough, buggy, or similar. The animal can pull up to its own body weight for&nbsp;<strong>TB</strong>&nbsp;hours without needing to make an Endurance Test. The animal can also pull up to twice its body weight for short hauls of&nbsp;<strong>TB</strong>&nbsp;minutes. The animal's gains a bonus of +1&nbsp;<strong>TB</strong>&nbsp;to do this for each point it has in Drive. It can have a maximum of&nbsp;<strong>WPB</strong>&nbsp;rating in this trait.</p>\n<p><strong>Entertain</strong>: The animal is trained to entertain others. It adds a +10 bonus to appropriate Entertain, Perform, or Play Tests.</p>\n<p><strong>Fetch</strong>: The animal is trained to spot and retrieve an object or prey undamaged.</p>\n<p><strong>Guard</strong>: The animal is trained to stay in one place or prowl around as a guard, granting it the Territorial Trait.</p>\n<p><strong>Home</strong>: The animal is trained to return home if it is released or lost.</p>\n<p><strong>Magic</strong>:&nbsp;The animal is trained to accept a spellcaster as a rider. Without this Trained trait, the animal typically shies from spellcasters.</p>\n<p><strong>Mount</strong>: The animal will accept a rider. Some creatures are especially belligerent, and will not accept a rider without the correct skill. So, to ride a Griﬀon, you need the Ride (Griﬀon) skill.</p>\n<p><strong>Pack:</strong>&nbsp;The animal is trained to carry great weights on its back. It can carry its Strength rating in Encumbrance points upon its back for each point it has in Pack. This limit is doubled for each step in the Size trait to the creature has above Large. It can have a maximum of&nbsp;<strong>TB</strong>&nbsp;rating in this trait.</p>\n<p><strong>Pointer:</strong>&nbsp;The animal is trained to spot birds and 'point' to them by freezing and aiming their muzzle towards the game.</p>\n<p><strong>War</strong>:&nbsp;The animal is trained to carry a rider into the hell of war. It can use its Rider&rsquo;s&nbsp;<strong>WP</strong>&nbsp;instead of its own for all appropriate Tests</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>This assumes the following updates are applied to the&nbsp;<em>Trained</em>&nbsp;trait from&nbsp;<strong>WFRP</strong>&nbsp;page 342-343. Of note, look to Broken, which was never supposed to imply the&nbsp;<em>Bestial</em>&nbsp;trait was ignored completely.</p>"
+    },
+    "rollable": {
+      "value": false,
+      "damage": false,
+      "skill": "",
+      "label": "Rollable",
+      "type": "Boolean",
+      "rollCharacteristic": "",
+      "bonusCharacteristic": "",
+      "dice": "",
+      "defaultDifficulty": "challenging",
+      "SL": true,
+      "attackType": "melee"
+    },
+    "specification": {
+      "value": "Trained Skills",
+      "type": "String",
+      "label": "Specification"
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": "Compendium.wfrp4e-laws-pet-shoppe.pet_traits.I7L7UACo7qOuni3l",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!I7L7UACo7qOuni3l"
+}

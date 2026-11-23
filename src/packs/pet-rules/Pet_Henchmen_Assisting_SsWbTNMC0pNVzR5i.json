@@ -1,0 +1,40 @@
+{
+  "_id": "SsWbTNMC0pNVzR5i",
+  "name": "Pet Henchmen Assisting",
+  "pages": [
+    {
+      "_id": "SsWbTNMC0pNVzR5i",
+      "name": "Pet Henchmen Assisting",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>As a pet has its own Skills, it will also be a useful aid for Assisted Test.</p>\n<p><strong>Reccomendation:</strong> Only let a pet assist its owner, and only in appropriate circumstances. So, if the dog has Intimidate, it can assist its owner's Intimidate tests by barking or growling at appropriate moments, and that's a nice wee bonus.</p>"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!SsWbTNMC0pNVzR5i.SsWbTNMC0pNVzR5i"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!journal!SsWbTNMC0pNVzR5i"
+}

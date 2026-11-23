@@ -1,0 +1,85 @@
+{
+  "_id": "dJcE48ogdJ2LLksg",
+  "name": "Palfrey (Siert Palfrey)",
+  "type": "container",
+  "img": "modules/wfrp4e-eis/assets/icons/riding-horse.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>The Siert Palfrey, named for the noble house that first bred it on the Reikland–Westerland border, is not the first choice for most palfrey purchasers. A passable ride at best, it is notorious for its poor vision and is not particularly intelligent. However, it is an exceptionally long-lived breed, able to reach a grand age of 60 years or more, and is relatively cheap. This meaning the horses are often bought by poorer nobles or merchants, who later pass them to younger siblings, cousins, or their children. Most Siert Palfreys rarely grow taller than 15 hands to the withers.</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "quantity": {
+      "type": "Number",
+      "label": "Quantity",
+      "value": 1
+    },
+    "encumbrance": {
+      "type": "Number",
+      "label": "Encumbrance",
+      "value": 0
+    },
+    "price": {
+      "type": "String",
+      "label": "Price",
+      "gc": "115",
+      "ss": "0",
+      "bp": "0"
+    },
+    "availability": {
+      "type": "String",
+      "label": "Availability",
+      "value": "scarce"
+    },
+    "location": {
+      "type": "Number",
+      "label": "Location",
+      "value": 0
+    },
+    "worn": {
+      "type": "Boolean",
+      "label": "Worn",
+      "value": false
+    },
+    "wearable": {
+      "type": "Boolean",
+      "label": "Wearable",
+      "value": false
+    },
+    "carries": {
+      "type": "Number",
+      "label": "Carries",
+      "value": 16
+    },
+    "countEnc": {
+      "type": "Boolean",
+      "label": "Count Enc",
+      "value": false
+    },
+    "source": {
+      "type": "String",
+      "label": "Source"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370",
+    "systemId": "wfrp4e",
+    "systemVersion": "10.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "folder": null,
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dJcE48ogdJ2LLksg"
+}
