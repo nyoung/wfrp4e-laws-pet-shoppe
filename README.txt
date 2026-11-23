@@ -49,7 +49,7 @@ Simulacrum
 Warhammer Fantasy Roleplay and WFRP are trademarks owned by Games Workshop Ltd. This article is a fan work and is not intended to be official or to challenge any trademark or copyright of Games Workshop or any of its licensees.
 UPDATE 2.0.0 (Foundry VTT v14 / WFRP4e 10.x port)
 • Compendia rebuilt for Foundry v14 (LevelDB packs, v10+ document formats: prototype tokens, journal pages, table result UUIDs).
-• Traits and talents that are copies of Core Rulebook items now carry the current Core effects; the custom ones (Keen Senses, Wayfinder, Survival Sense, Swimmer, Swim Speed, Stubborn, Fated, and the breed-specific Hardy x2/x3 and rated Tracker) are rewritten for the current WFRP4e effect scripts.
+• Traits and talents that are copies of Core Rulebook items now carry the current Core effects; the custom ones (Keen Senses, Wayfinder, Survival Sense, Swimmer, Stubborn, Fated, and the breed-specific Hardy x2/x3 and rated Tracker) are rewritten for the current WFRP4e effect scripts.
 • Removed the duplicate actor-level copies of item effects that Foundry v9 stored, which would otherwise double every trait bonus.
 • Content links converted to @UUID links into wfrp4e-core (the old "Climbing" world-journal link now points at the Core "Climb" page). Links to horses not in Core (Heavy Warhorse etc.) and the Great Cat are plain text.
 • Random trait tables have keys (cat-traits, dog-traits, horse-traits) so @Table links work once the tables are imported into the world.
@@ -57,3 +57,4 @@ UPDATE 2.0.0 (Foundry VTT v14 / WFRP4e 10.x port)
 
 Building: JSON sources live in src/packs. `npm install` then `npm run build` compiles them into packs/.
 tools/migrate-legacy.mjs is the one-off converter from the original v9 packs (kept in legacy/).
+• Swim Speed (N) no longer overwrites the creature's land Movement (the original effect made a swan walk at 3 and a seal move 5 on land). The trait is now descriptive: its description gives the swimming Move/Walk/Run to use in water.

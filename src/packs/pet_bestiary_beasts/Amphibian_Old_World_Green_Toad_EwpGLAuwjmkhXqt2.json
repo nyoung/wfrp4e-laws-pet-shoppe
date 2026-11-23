@@ -1505,7 +1505,7 @@
         "description": {
           "type": "String",
           "label": "Description",
-          "value": ""
+          "value": "<p>Swimming Movement 3 (Walk 6 yards, Run 12 yards). Use these values instead of the creature's normal Movement while it is swimming; its movement on land is unchanged.</p>"
         },
         "gmdescription": {
           "type": "String",
@@ -1531,50 +1531,7 @@
           "label": "Specification"
         }
       },
-      "effects": [
-        {
-          "_id": "nu2ehFABzVT5MCvD",
-          "name": "Swim Speed (3)",
-          "img": "modules/wfrp4e-core/icons/traits/trait.png",
-          "type": "base",
-          "disabled": false,
-          "transfer": true,
-          "duration": {
-            "value": null,
-            "units": "seconds",
-            "expiry": null,
-            "expired": false
-          },
-          "description": "",
-          "origin": null,
-          "statuses": [],
-          "tint": "#ffffff",
-          "flags": {
-            "wfrp4e": {
-              "hide": false
-            }
-          },
-          "system": {
-            "transferData": {
-              "type": "document",
-              "documentType": "Actor",
-              "equipTransfer": false
-            },
-            "scriptData": [
-              {
-                "label": "Swim Speed (3)",
-                "trigger": "prepareData",
-                "script": "args.actor.details.move.value = 3\nargs.actor.details.move.walk = 6\nargs.actor.details.move.run = 12",
-                "options": {}
-              }
-            ],
-            "zone": {},
-            "sourceData": {},
-            "changes": []
-          },
-          "_key": "!actors.items.effects!EwpGLAuwjmkhXqt2.bEF2GSnjYSpSTKYZ.nu2ehFABzVT5MCvD"
-        }
-      ],
+      "effects": [],
       "flags": {},
       "_stats": {
         "coreVersion": "14.370",

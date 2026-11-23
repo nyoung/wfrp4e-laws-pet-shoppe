@@ -328,7 +328,20 @@ const NON_STANDARD = [
   /bonus\*\(this\.item\.specification/,      // Tracker scaled by rating (pure-bred hounds)
 ];
 
+// The original "Swim Speed (N)" effect overwrote the creature's *land* Move/Walk/Run with its
+// swimming speed (a swan walking at 3, a seal moving 5 on land). WFRP4e has no separate swim
+// movement, so the trait becomes descriptive: no effect, speeds recorded in its description.
+function swimSpeedDescription(item) {
+  const script = (item.effects ?? []).map((e) => e.flags?.wfrp4e?.script ?? "").join("\n");
+  const get = (k) => script.match(new RegExp(`move\\.${k} = (\\d+)`))?.[1];
+  const [move, walk, run] = [get("value"), get("walk"), get("run")];
+  if (!move) return null;
+  return `<p>Swimming Movement ${move} (Walk ${walk ?? move * 2} yards, Run ${run ?? move * 4} yards). `
+    + `Use these values instead of the creature's normal Movement while it is swimming; its movement on land is unchanged.</p>`;
+}
+
 function migrateEmbeddedEffects(item, embedded, where) {
+  if (/^Swim Speed/.test(item.name)) return [];
   const legacyScripts = (item.effects ?? []).map((e) => e.flags?.wfrp4e?.script ?? "").join("\n");
   const custom = NON_STANDARD.some((re) => re.test(legacyScripts));
   if (!custom) {
@@ -381,6 +394,10 @@ function migrateItem(i, embedded, where) {
     sort: i.sort ?? 0,
   };
   if (!embedded) { out.folder = null; out.ownership = ownership(i.permission); }
+  if (/^Swim Speed/.test(i.name)) {
+    const desc = swimSpeedDescription(i);
+    if (desc) out.system.description = { ...(out.system.description ?? {}), value: (out.system.description?.value || "") + desc };
+  }
   // Magic Resistance trait now reads its rating from the specification.
   if (i.type === "trait" && baseName(i.name) === "magic resistance" && !out.system.specification?.value) {
     const n = (i.effects ?? []).map((e) => e.flags?.wfrp4e?.script?.match(/slBonus -= (\d+)/)?.[1]).find(Boolean);
